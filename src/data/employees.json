@@ -1,0 +1,26 @@
+[
+  {
+    "id": 12875,
+    "name": "Dwayne Schwartz",
+    "title": "Assistant to the Regional Manager",
+    "salary": 65000
+  },
+  {
+    "id": 14094,
+    "name": "Milly Cook",
+    "title": "Customer Service Representative",
+    "salary": 40000
+  },
+  {
+    "id": 12894,
+    "name": "Darren Philmore",
+    "title": "Warehouse Foreman",
+    "salary": 68000
+  },
+  {
+    "id": 13893,
+    "name": "Danielle Padilla",
+    "title": "Accountant",
+    "salary": 54000
+  }
+]
