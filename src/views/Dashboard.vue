@@ -1,16 +1,30 @@
 <template>
-  <div>
+  <v-container fluid>
     <h1>Dashboard</h1>
 
-    <sales-graph v-for="sale in sales" :key="`${sale.title}`" :sale="sale" />
+    <v-row justify="center">
+      <v-col cols="12" md="6" lg="4" v-for="sale in sales" :key="`${sale.title}`">
+        <sales-graph :sale="sale" />
+      </v-col>
+    </v-row>
 
-    <statistic-card v-for="statistic in statistics" :key="`${statistic.title}`" :statistic="statistic" />
+    <v-row justify="center">
+      <v-col cols="12" sm="6" md="4" lg="3" v-for="statistic in statistics" :key="`${statistic.title}`">
+        <statistic-card :statistic="statistic" />
+      </v-col>
+    </v-row>
 
-    <employees-table :employees="employees" @select-row="selectRow" />
+    <v-row>
+      <v-col cols="12" lg="6">
+        <employees-table :employees="employees" @select-row="selectRow" />
+      </v-col>
 
-    <event-timeline :timeline="timeline" />
+      <v-col cols="12" lg="6">
+        <event-timeline :timeline="timeline" />
+      </v-col>
+    </v-row>
 
-    <v-snackbar v-model="snackbar">
+    <v-snackbar v-model="snackbar" :left="$vuetify.breakpoint.lgAndUp">
       {{ currentRow.name }} - {{ currentRow.title }}
 
       <template v-slot:action="{ attrs }">
@@ -19,7 +33,7 @@
         </v-btn>
       </template>
     </v-snackbar>
-  </div>
+  </v-container>
 </template>
 
 <script>
