@@ -1,21 +1,56 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        v-for="link in links"
-        :key="`${link.label}-header-link`"
-        text
-        rounded
-        :to="link.url"
-      >
-        {{ link.label }}
-      </v-btn>
-      <v-btn @click="toggleTheme" text rounded>
-        <v-icon>mdi-theme-light-dark</v-icon>
-      </v-btn>
-    </v-app-bar>
+    <!-- Desktop mode -->
+    <div v-if="!isPhone">
+      <v-app-bar app color="primary" dark>
+        <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn
+          v-for="link in links"
+          :key="`${link.label}-header-link`"
+          text
+          rounded
+          :to="link.url"
+        >
+          {{ link.label }}
+        </v-btn>
+        <v-btn @click="toggleTheme" text rounded>
+          <v-icon>mdi-theme-light-dark</v-icon>
+        </v-btn>
+      </v-app-bar>
+    </div>
+
+    <!-- Phone mode -->
+    <div v-else>
+      <v-navigation-drawer v-model="drawer" color="primary" fixed dark>
+        <v-list>
+          <v-list-item>
+            <v-btn fixed left @click="toggleTheme" text rounded>
+              <v-icon>mdi-theme-light-dark</v-icon>
+            </v-btn>
+            <v-btn fixed right @click="drawer = !drawer" text rounded>
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </v-list-item>
+
+          <v-list-item
+            v-for="link in links"
+            :key="`${link.label}-header-link-mobile`"
+          >
+            <v-btn text rounded :to="link.url">
+              {{ link.label }}
+            </v-btn>
+          </v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+
+      <v-app-bar app color="primary" dark>
+        <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+
+        <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+      </v-app-bar>
+    </div>
+
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -45,6 +80,7 @@ export default {
   name: "App",
   data() {
     return {
+      drawer: false,
       links: [
         {
           label: "Home",
@@ -65,20 +101,29 @@ export default {
       ],
     };
   },
+  computed: {
+    isPhone() {
+      if (this.$vuetify.breakpoint.xsOnly) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
   methods: {
     toggleTheme() {
-      this.$vuetify.theme.dark = !this.$vuetify.theme.dark
-      console.log(this.$vuetify.theme.dark)
-      localStorage.setItem("isDark", this.$vuetify.theme.dark.toString())
-    }
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+      console.log(this.$vuetify.theme.dark);
+      localStorage.setItem("isDark", this.$vuetify.theme.dark.toString());
+    },
   },
   mounted() {
-      const isDark = localStorage.getItem("isDark")
-      if(isDark == "true") {
-        this.$vuetify.theme.dark = true
-      } else {
-        this.$vuetify.theme.dark = false
-      }
+    const isDark = localStorage.getItem("isDark");
+    if (isDark == "true") {
+      this.$vuetify.theme.dark = true;
+    } else {
+      this.$vuetify.theme.dark = false;
     }
+  },
 };
 </script>

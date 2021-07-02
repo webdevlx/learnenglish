@@ -31,7 +31,12 @@
             </v-col>
 
             <v-col cols="12" sm="6">
-              <v-text-field label="Birthday" v-model="birthday" :rules="birthdayRules" readonly>
+              <v-text-field
+                label="Birthday"
+                v-model="birthday"
+                :rules="birthdayRules"
+                readonly
+              >
               </v-text-field>
             </v-col>
 
@@ -49,21 +54,17 @@
               </v-checkbox>
             </v-col>
 
-            <v-col cols="12">
-              <v-btn
-                class="mr-4"
-                :disabled="!formValidity"
-                type="submit"
-                color="primary"
-                >Submit</v-btn
-              >
-              <v-btn class="mr-4" color="success" @click="validateForm"
-                >Validate Form</v-btn
-              >
-              <v-btn class="mr-4" color="warning" @click="resetValidation"
-                >Reset Validation</v-btn
-              >
-              <v-btn color="error" @click="resetForm">Reset</v-btn>
+            <v-col cols="12" sm="6" lg="3">
+              <v-btn block :disabled="!formValidity" type="submit" color="primary">Submit</v-btn>
+            </v-col>
+            <v-col cols="12" sm="6" lg="3">
+              <v-btn block color="success" @click="validateForm">Validate Form</v-btn>
+            </v-col>
+            <v-col cols="12" sm="6" lg="3">
+              <v-btn block color="warning" @click="resetValidation">Reset Validation</v-btn>
+            </v-col>
+            <v-col cols="12" sm="6" lg="3">
+              <v-btn block color="error" @click="resetForm">Reset</v-btn>
             </v-col>
           </v-row>
         </v-form>
