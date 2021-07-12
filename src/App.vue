@@ -98,6 +98,10 @@ export default {
           label: "Dashboard",
           url: "/dashboard",
         },
+        {
+          label: "Lessons",
+          url: '/lessons'
+        }
       ],
     };
   },
