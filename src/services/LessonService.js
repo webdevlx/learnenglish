@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseUrl: "https://my-json-server.typicode.com/webdevlx/vuetify-dashboard",
+  baseURL: "https://my-json-server.typicode.com/webdevlx/vuetify-dashboard",
   // baseURL: "http://localhost:3000",
   withCredentials: false,
   headers: {
