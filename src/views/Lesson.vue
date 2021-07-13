@@ -5,13 +5,13 @@
         <h1>Lesson {{ lesson.id }}: {{ lesson.title }}</h1>
       </v-col>
 
-      <v-col cols="12" md="8">
-        <video width="100%" height="auto" controls>
+      <v-col cols="12" md="7">
+        <video style="border-radius: 4px;" width="100%" height="auto" controls>
           <source :src="lesson.src.video" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </v-col>
-      <v-col cols="12" md="4">
+      <v-col cols="12" md="5">
         <h2>Conversation</h2>
         <v-card style="padding: 1rem" elevation="3">
           <div v-for="(con, index) in lesson.conversation" :key="index">
@@ -32,8 +32,8 @@
         color="primary"
       ></v-progress-linear>
 
-      <div class="voa display-4">
-        <img src="https://learningenglish.voanews.com/Content/responsive/VOA/en-US-LEARN/img/logo.png" alt="VOA">
+      <div class="voa">
+        <img src="../assets/logo_voa.png" alt="VOA" />
       </div>
     </v-row>
   </v-container>
@@ -49,10 +49,10 @@ export default {
     };
   },
   computed: {
-    ...mapState({ lesson: (state) => state.lesson }),
+    ...mapState({ lesson: (state) => state.lesson.lesson }),
   },
   created() {
-    this.$store.state.lesson = {};
+    this.$store.state.lesson.lesson = {};
     setTimeout(() => {
       this.$store.dispatch("fetchLesson", this.id);
       this.loading = false;
@@ -63,11 +63,16 @@ export default {
 
 <style scoped>
 .voa {
-  color: #1976D2;
+  color: #1976d2;
   position: absolute;
   top: 50%;
   width: 100%;
-  transform: translateY(-50%);
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .voa img {
+    width: 300px;
+  }
 }
 </style>

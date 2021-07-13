@@ -19,7 +19,10 @@ export default {
     LessonCard,
   },
   computed: {
-    ...mapState({ lessons: (state) => state.lessons }),
+    ...mapState({ lessons: (state) => state.lesson.lessons }),
+  },
+  created() {
+    this.$store.dispatch("fetchLessons");
   },
 };
 </script>
