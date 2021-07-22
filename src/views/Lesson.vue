@@ -1,51 +1,95 @@
 <template>
-  <v-container fluid>
-    <v-row v-if="Object.entries(lesson).length !== 0">
-      <v-col cols="12">
-        <h1>Lesson {{ lesson.id }}: {{ lesson.title }}</h1>
-      </v-col>
+  <div>
+    <div v-if="Object.entries(lesson).length !== 0">
+      <v-container fluid>
+        <v-alert
+          border="left"
+          color="primary"
+          prominent
+          dismissible
+          icon="mdi-account-alert"
+          type="info"
+        >
+          Assalomu alaykum Hurmatli saytimiz foydalanuvchisi! <br />
+          Agar siz uchun matnlarning o'zbekcha tarjimasi kerak bo'lsa, o'sha
+          matn ustiga bosing va sahifaning pastki qismida tarjimasini bilib
+          oling.
+        </v-alert>
 
-      <v-col cols="12" md="7">
-        <video style="border-radius: 4px;" width="100%" height="auto" controls>
-          <source :src="lesson.src.video" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </v-col>
-      <v-col cols="12" md="5">
-        <h2>Conversation</h2>
-        <v-card style="padding: 1rem" elevation="3">
-          <div v-for="(con, index) in lesson.conversation" :key="index">
-            {{ con }}
-          </div>
-        </v-card>
-        <audio style="width: 100%; margin-top: 20px" controls>
-          <source :src="lesson.src.audio" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-      </v-col>
-    </v-row>
+        <heading-lesson :number="lesson.id" :title="lesson.title" />
 
-    <v-row v-else>
-      <v-progress-linear
-        :active="loading"
-        :indeterminate="loading"
-        color="primary"
-      ></v-progress-linear>
+        <v-row>
+          <main-video-lesson :src="lesson.src.mainVideo" />
 
-      <div class="voa">
-        <img src="../assets/logo_voa.png" alt="VOA" />
-      </div>
-    </v-row>
-  </v-container>
+          <resourse-lesson :link="lesson.src.resoursePDF" />
+        </v-row>
+
+        <speaking-practice-lesson
+          :src="lesson.src.speakingPracticeVideo"
+          :texts="lesson.speakingPracticeText"
+          @translate-text="translateText"
+        />
+
+        <pronunciation-lesson :src="lesson.src.pronunciationVideo" />
+
+        <conversation-lesson
+          :conversationText="lesson.conversationText"
+          :src="lesson.src.conversationAudio"
+          @translate-text="translateText"
+        />
+
+        <v-row>
+          <v-col cols="12">
+            <v-snackbar v-model="snackbar" :right="$vuetify.breakpoint.mdAndUp">
+              {{ text }}
+
+              <template v-slot:action="{ attrs }">
+                <v-btn
+                  color="blue"
+                  text
+                  v-bind="attrs"
+                  @click="snackbar = false"
+                >
+                  Close
+                </v-btn>
+              </template>
+            </v-snackbar>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+
+    <div v-else>
+      <loading-lesson :loading="loading" />
+    </div>
+  </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
+import HeadingLesson from "../components/HeadingLesson.vue";
+import MainVideoLesson from "../components/MainVideoLesson.vue";
+import ResourseLesson from "../components/ResourseLesson.vue";
+import SpeakingPracticeLesson from "../components/SpeakingPracticeLesson.vue";
+import PronunciationLesson from "../components/PronunciationLesson.vue";
+import ConversationLesson from "../components/ConversationLesson.vue";
+import LoadingLesson from "../components/LoadingLesson.vue";
 export default {
+  components: {
+    HeadingLesson,
+    MainVideoLesson,
+    ResourseLesson,
+    SpeakingPracticeLesson,
+    PronunciationLesson,
+    ConversationLesson,
+    LoadingLesson,
+  },
   props: ["id"],
   data() {
     return {
       loading: true,
+      snackbar: false,
+      text: "",
     };
   },
   computed: {
@@ -56,23 +100,16 @@ export default {
     setTimeout(() => {
       this.$store.dispatch("fetchLesson", this.id);
       this.loading = false;
-    }, 2000);
+    }, 1000);
+  },
+  methods: {
+    translateText(text) {
+      this.snackbar = true;
+      this.text = text;
+    },
   },
 };
 </script>
 
 <style scoped>
-.voa {
-  color: #1976d2;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-}
-
-@media (max-width: 600px) {
-  .voa img {
-    width: 300px;
-  }
-}
 </style>

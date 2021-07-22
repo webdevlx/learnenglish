@@ -117,7 +117,6 @@ export default {
   methods: {
     toggleTheme() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-      console.log(this.$vuetify.theme.dark);
       localStorage.setItem("isDark", this.$vuetify.theme.dark.toString());
     },
   },
