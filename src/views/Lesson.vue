@@ -38,6 +38,11 @@
           @translate-text="translateText"
         />
 
+        <quiz-content-lesson
+          :questions="lesson.questions"
+          @translate-text="translateText"
+        />
+
         <v-row>
           <v-col cols="12">
             <v-snackbar v-model="snackbar" :right="$vuetify.breakpoint.mdAndUp">
@@ -74,6 +79,7 @@ import SpeakingPracticeLesson from "../components/SpeakingPracticeLesson.vue";
 import PronunciationLesson from "../components/PronunciationLesson.vue";
 import ConversationLesson from "../components/ConversationLesson.vue";
 import LoadingLesson from "../components/LoadingLesson.vue";
+import QuizContentLesson from "../components/QuizContentLesson.vue";
 export default {
   components: {
     HeadingLesson,
@@ -83,6 +89,7 @@ export default {
     PronunciationLesson,
     ConversationLesson,
     LoadingLesson,
+    QuizContentLesson,
   },
   props: ["id"],
   data() {

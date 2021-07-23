@@ -9,7 +9,6 @@
       href="https://learningenglish.voanews.com"
       block
       elevation="3"
-      x-large
       class="my-3"
       target="_blank"
     >
@@ -21,7 +20,6 @@
       :href="link"
       block
       elevation="3"
-      x-large
       class="my-3"
       target="_blank"
     >

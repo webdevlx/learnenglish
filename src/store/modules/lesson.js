@@ -33,9 +33,27 @@ export default {
         questions: [
           {
             "id": 1,
-            "title": "Play the video, then answer the question. Who is she?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. Who is she?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Kim u?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/5/55/55878189-5b52-44f8-a349-196dc9e18f80_hq.mp4",
-            "questionVideoText": "Hi, I am Mary.",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Hi, I am Mary.",
+              },
+              {
+                lang: "uz",
+                text: "Salom, Men Meriman."
+              }
+            ],
             "answers": [
               {
                 "id": 1,
@@ -61,9 +79,27 @@ export default {
           },
           {
             "id": 2,
-            "title": "Play the video, then answer the question. Who is he?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. Who is he?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Kim u?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/b/ba/babae245-0a4d-41c5-9214-767057c5edbd_hq.mp4",
-            "questionVideoText": "Hi, I am John.",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Hi, I am John.",
+              },
+              {
+                lang: "uz",
+                text: "Salom, Men Jonman."
+              }
+            ],
             "answers": [
               {
                 "id": 1,
@@ -89,9 +125,27 @@ export default {
           },
           {
             "id": 3,
-            "title": "Play the video, then answer the question. What does the person say?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. What does the person say?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Shaxs nima deydi?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/c/c8/c884bee2-1ce1-4e43-926c-af7c03dfd75f_hq.mp4",
-            "questionVideoText": "Hi. I am Jill. Are you John?",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Hi. I am Jill. Are you John?",
+              },
+              {
+                lang: "uz",
+                text: "Salom. Men Jilman. Siz Jonmisiz?"
+              }
+            ],
             "answers": [
               {
                 "id": 1,
@@ -117,9 +171,27 @@ export default {
           },
           {
             "id": 4,
-            "title": "Play the video, then answer the question. What does the person say?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. What does the person say?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Shaxs nima deydi?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/4/4e/4e6954ea-323c-434b-a097-e135a60ed440_hq.mp4",
-            "questionVideoText": "Hi. I am Russell. Are you Anna's friend?",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Hi. I am Russell. Are you Anna's friend?",
+              },
+              {
+                lang: "uz",
+                text: "Salom. Men Rasselman. Siz Annaning do'stimisiz?"
+              }
+            ],
             "answers": [
               {
                 "id": 1,
@@ -145,9 +217,27 @@ export default {
           },
           {
             "id": 5,
-            "title": "Play the video, then answer the question. What does Anna say?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. What does Anna say?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Anna nima deydi?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/0/07/077c72e4-0a04-4903-96b9-36def8b7f28b_hq.mp4",
-            "questionVideoText": "Yes. I am.",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Yes. I am.",
+              },
+              {
+                lang: "uz",
+                text: "Ha. Men."
+              }
+            ],
             "answers": [
               {
                 "id": 1,
@@ -168,9 +258,27 @@ export default {
           },
           {
             "id": 6,
-            "title": "Play the video, then answer the question. What does Anna say?",
+            "titleText": [
+              {
+                lang: "en",
+                text: "Play the video, then answer the question. What does Anna say?",
+              },
+              {
+                lang: "uz",
+                text: "Videoni boshlang, so'ngra savolga javob bering. Anna nima deydi?"
+              }
+            ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/fa/fa312f88-a759-4f0b-8335-61129e795f2a_hq.mp4",
-            "questionVideoText": "Nice to meet you!",
+            "questionVideoText": [
+              {
+                lang: "en",
+                text: "Nice to meet you!",
+              },
+              {
+                lang: "uz",
+                text: "Tanishganimdan xursandman!"
+              }
+            ],
             "answers": [
               {
                 "id": 1,
