@@ -107,7 +107,7 @@ export default {
     setTimeout(() => {
       this.$store.dispatch("fetchLesson", this.id);
       this.loading = false;
-    }, 1000);
+    }, 2000);
   },
   methods: {
     translateText(text) {

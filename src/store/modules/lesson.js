@@ -40,7 +40,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Kim u?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Kim u?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/5/55/55878189-5b52-44f8-a349-196dc9e18f80_hq.mp4",
@@ -86,7 +86,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Kim u?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Kim u?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/b/ba/babae245-0a4d-41c5-9214-767057c5edbd_hq.mp4",
@@ -132,7 +132,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Shaxs nima deydi?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Shaxs nima dedi?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/c/c8/c884bee2-1ce1-4e43-926c-af7c03dfd75f_hq.mp4",
@@ -178,7 +178,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Shaxs nima deydi?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Shaxs nima dedi?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/4/4e/4e6954ea-323c-434b-a097-e135a60ed440_hq.mp4",
@@ -224,7 +224,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Anna nima deydi?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Anna nima dedi?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/0/07/077c72e4-0a04-4903-96b9-36def8b7f28b_hq.mp4",
@@ -265,7 +265,7 @@ export default {
               },
               {
                 lang: "uz",
-                text: "Videoni boshlang, so'ngra savolga javob bering. Anna nima deydi?"
+                text: "Videoni ko'ring, so'ngra savolga javob bering. Anna nima dedi?"
               }
             ],
             "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/fa/fa312f88-a759-4f0b-8335-61129e795f2a_hq.mp4",
