@@ -3,7 +3,7 @@
     <!-- Desktop mode -->
     <div v-if="!isPhone">
       <v-app-bar app color="primary" dark>
-        <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+        <v-toolbar-title>Let's Learn English</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn
           v-for="link in links"
@@ -47,13 +47,14 @@
       <v-app-bar app color="primary" dark>
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-        <v-toolbar-title>Vuetify Dashboard</v-toolbar-title>
+        <v-toolbar-title>Let's Learn English</v-toolbar-title>
       </v-app-bar>
     </div>
 
     <v-main>
       <router-view></router-view>
     </v-main>
+
     <v-footer color="primary lighten-1" padless>
       <v-row justify="center" no-gutters>
         <v-btn
@@ -84,19 +85,7 @@ export default {
       links: [
         {
           label: "Home",
-          url: "/",
-        },
-        {
-          label: "Login",
-          url: "/login",
-        },
-        {
-          label: "Signup",
-          url: "/signup",
-        },
-        {
-          label: "Dashboard",
-          url: "/dashboard",
+          url: "/"
         },
         {
           label: "Lessons",

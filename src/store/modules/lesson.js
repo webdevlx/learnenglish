@@ -325,9 +325,9 @@ export default {
             lang: "uz",
             speakingPractice: [
               "kvartira - ijaraga olingan xona yoki xonalar to'plami.",
-              "uchrashmoq - kimnidir ko'rish va birinchi marta suhbatlashish.",
-              "yangi - yaqinda sotib olingan yoki ijaraga olinganidan oldin ma'lum bo'lmagan.",
-              "yoqimli - yaxshi va yoqimli.",
+              "uchrashish - kimnidir birinchi marta ko'rish va gaplashish.",
+              "yangi - yaqinda sotib olingan yoki ijaraga olinishidan oldin noma'lum bo'lgan narsa.",
+              "ajoyib - yaxshi va yoqimli.",
               "ko'cha - shahar, shaharcha yoki qishloqdagi yo'l.",
               "urinish - biror narsa qilishga harakat qilish.",
               "xush kelibsiz - bir joyga kelgan kishiga do'stona salom sifatida ishlatiladi."
@@ -406,7 +406,7 @@ export default {
               },
               {
                 name: "Pit",
-                title: "Men Pitman. \"Anna\" Bu A-N-A?",
+                title: "Men Pitman. \"Anna\" Bu A-N-A emasmi?",
               },
               {
                 name: "Anna",
@@ -414,7 +414,7 @@ export default {
               },
               {
                 name: "Pit",
-                title: "Xo'sh, Anna ikkita \"n\" bilan ... Xush kelibsiz ... 1400 Irving Ko'chasiga!",
+                title: "Yaxshi, Anna ikkita \"n\" bilan ... 1400 Irving Ko'chasiga ... Xush kelibsiz!",
               },
               {
                 name: "Anna",

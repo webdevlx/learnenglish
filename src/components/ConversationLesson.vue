@@ -14,7 +14,7 @@
           <template v-slot:icon>
             <v-avatar>
               <img
-                :src="require(`../assets/persons/${con.name}.jpg`)"
+                :src="`/resourses/persons/${con.name}.jpg`"
                 :alt="con.name"
               />
             </v-avatar>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="Object.entries(lesson).length !== 0">
+    <div v-if="!loading">
       <v-container fluid>
         <v-alert
           border="left"
@@ -11,9 +11,7 @@
           type="info"
         >
           Assalomu alaykum Hurmatli saytimiz foydalanuvchisi! <br />
-          Agar siz uchun matnlarning o'zbekcha tarjimasi kerak bo'lsa, o'sha
-          matn ustiga bosing va sahifaning pastki qismida tarjimasini bilib
-          oling.
+          Darslikdagi videolarda qo'llanilgan matnlarning o'zbekcha tarjimasi bilish uchun matn ustiga bosing.
         </v-alert>
 
         <heading-lesson :number="lesson.id" :title="lesson.title" />
@@ -103,11 +101,10 @@ export default {
     ...mapState({ lesson: (state) => state.lesson.lesson }),
   },
   created() {
-    this.$store.state.lesson.lesson = {};
     setTimeout(() => {
       this.$store.dispatch("fetchLesson", this.id);
       this.loading = false;
-    }, 2000);
+    }, 1000);
   },
   methods: {
     translateText(text) {

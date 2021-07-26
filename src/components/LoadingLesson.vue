@@ -7,7 +7,7 @@
     ></v-progress-linear>
 
     <div class="voa">
-      <img src="../assets/logo_voa.png" alt="VOA" />
+      <img :src="require('../assets/logo_voa.png')" alt="VOA" />
     </div>
   </div>
 </template>
