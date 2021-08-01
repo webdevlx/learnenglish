@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div v-if="!loading">
+    <div v-if="lessons.length !== 0">
       <v-container fluid>
-        <v-row>
+        <v-row class="mb-5">
           <v-col cols="12">
             <h2>Let's Learn English - Level 1</h2>
           </v-col>
@@ -18,6 +18,10 @@
           </v-col>
         </v-row>
       </v-container>
+
+      <v-divider></v-divider>
+
+      <coming-soon />
     </div>
 
     <div v-else>
@@ -29,11 +33,13 @@
 <script>
 import LessonCard from "@/components/LessonCard.vue";
 import LoadingLesson from "@/components/LoadingLesson.vue";
+import ComingSoon from "../components/ComingSoon.vue";
 import { mapState } from "vuex";
 export default {
   components: {
     LessonCard,
     LoadingLesson,
+    ComingSoon,
   },
   data() {
     return {

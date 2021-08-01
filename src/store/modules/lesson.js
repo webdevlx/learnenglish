@@ -330,7 +330,7 @@ export default {
               "ajoyib - yaxshi va yoqimli.",
               "ko'cha - shahar, shaharcha yoki qishloqdagi yo'l.",
               "urinish - biror narsa qilishga harakat qilish.",
-              "xush kelibsiz - bir joyga kelgan kishiga do'stona salom sifatida ishlatiladi."
+              "xush kelibsiz - biror joyga kelgan kishiga do'stona salom sifatida ishlatiladi."
             ]
           }
         ]

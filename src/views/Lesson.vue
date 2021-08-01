@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!loading">
+    <div v-if="Object.entries(lesson).length !== 0">
       <v-container fluid>
         <v-alert
           border="left"
