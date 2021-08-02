@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="lessons.length !== 0">
+    <div v-if="!loading">
       <v-container fluid>
         <v-row class="mb-5">
           <v-col cols="12">

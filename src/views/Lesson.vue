@@ -11,7 +11,8 @@
           type="info"
         >
           Assalomu alaykum Hurmatli saytimiz foydalanuvchisi! <br />
-          Darslikdagi videolarda qo'llanilgan matnlarning o'zbekcha tarjimasi bilish uchun matn ustiga bosing.
+          Darslikdagi videolarda qo'llanilgan matnlarning o'zbekcha tarjimasi
+          bilish uchun matn ustiga bosing.
         </v-alert>
 
         <heading-lesson :number="lesson.id" :title="lesson.title" />
@@ -101,6 +102,7 @@ export default {
     ...mapState({ lesson: (state) => state.lesson.lesson }),
   },
   created() {
+    this.$store.state.lesson.lesson = {};
     setTimeout(() => {
       this.$store.dispatch("fetchLesson", this.id);
       this.loading = false;
