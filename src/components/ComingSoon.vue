@@ -50,7 +50,7 @@ export default {
   methods: {
     countDown() {
       setInterval(() => {
-        let releaseDate = new Date('Aug 3, 2021 07:00:00').getTime();
+        let releaseDate = new Date('Aug 4, 2021 07:00:00').getTime();
         let currentDate = new Date().getTime();
         let count = releaseDate - currentDate;
 

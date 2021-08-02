@@ -577,10 +577,8 @@ export default {
             lang: "en",
             speakingPractice: [
               "know - to have met and talked to (someone).",
-              "meet - to see and speak to (someone) for the first time.",
-              "call - to make a telephone call.",
-              "friend - a person who you like and enjoy being with.",
-              "remember - to have or keep an image or idea in your mind of something or someone from the past",
+              "number - a number or a set of numbers and other symbols that is used to identify a person or thing.",
+              "remember - to have or keep an image or idea in your mind of something or someone from the past.",
               "roommate - a person who shares a room, apartment, or house with someone else.",
               "work - the place where you do your job."
             ]
@@ -589,10 +587,8 @@ export default {
             lang: "uz",
             speakingPractice: [
               "know - to have met and talked to (someone).",
-              "meet - to see and speak to (someone) for the first time.",
-              "call - to make a telephone call.",
-              "friend - a person who you like and enjoy being with.",
-              "remember - from the past) or to think of something or someone from the past",
+              "number - a number or a set of numbers and other symbols that is used to identify a person or thing.",
+              "remember - to have or keep an image or idea in your mind of something or someone from the past.",
               "roommate - a person who shares a room, apartment, or house with someone else.",
               "work - the place where you do your job."
             ]
