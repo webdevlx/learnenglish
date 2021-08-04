@@ -27,6 +27,20 @@
       "conversationText": [],
       "questions": [],
       "speakingPracticeText": []
+    },
+    {
+      "id": 3,
+      "title": "I'm Here!",
+      "src": {
+        "mainVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/05/0/02/027f8fdd-e9b0-409c-8618-45be49fcefe8_fullhd.mp4",
+        "resoursePDF": "https://docs.voanews.eu/en-US-LEARN/2021/01/26/0775d8da-8c8a-445f-8b2f-3f24d6801809.pdf",
+        "speakingPracticeVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/f7/f76ec989-278f-4c30-a75e-d06368b1edb2_hq.mp4",
+        "pronunciationVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/8/87/87f2eb60-9ad9-47cd-9162-f04085b95301_hq.mp4",
+        "conversationAudio": "https://av.voanews.com/clips/VLE/2016/02/18/a82baaf4-0a91-4d43-8ab6-78f72cef8fce.mp3"
+      },
+      "conversationText": [],
+      "questions": [],
+      "speakingPracticeText": []
     }
   ]
 }

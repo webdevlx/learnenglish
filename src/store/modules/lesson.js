@@ -538,7 +538,288 @@ export default {
             ]
           }
         ]
-      }
+      },
+      {
+        "id": 3,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna say about Marsha?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna Marsha haqida nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/7/70/70d903aa-6c98-490c-b036-1216d0d2a752_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "She says, \"We're roommates.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "U \"Biz xonadoshmiz\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Anna says she is in Marsha's room.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She says she wants to meet Marsha.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Anna says Marsha is her best friend.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She says she and Marsha are roommates.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna want to do?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima qilmoqchi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/c/cd/cdf36829-94af-4ac4-8c90-34f7312b5bd6_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says, \"I want to cook dinner.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Men kechki ovqat tayyorlamoqchiman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Anna wants to see what is in there.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She wants to cook dinner.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "Anna wants to call Marsha.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She wants to ask a friend over.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What is Anna asking about?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima haqida so'rayapti?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/6/62/62865ade-4b9a-451f-a0fc-30ce1f52bbdd_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "She says, \"Is there a supermarket near here?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "U \"Yaqin atrofda supermarket bormi?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Anna wants to find a restaurant near the apartment.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She asks about the kind of food Marsha likes.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Anna wants to buy food at a supermarket.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "She asks about where she can park her car.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Why does the man say he is sorry?",
+              },
+              {
+                "lang": "uz",
+                "text": "Nega erkak kechirim soradi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/6/62/62c51b19-bf53-459c-b767-b053b1e95e98_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "He says he is sorry that she has the wrong number.",
+              },
+              {
+                "lang": "uz",
+                "text": "Uning aytishicha, u noto'g'ri raqam qo'yganidan afsusdaman."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "He does not know Anna's number.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "The man tells Anna she has the wrong number.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "He has the wrong phone number.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "The man tells Anna that Marsha is not at work.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does the man say about his phone number?",
+              },
+              {
+                "lang": "uz",
+                "text": "Erkak telefon raqami haqida nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/f4/f42ae756-0712-4a71-9b7a-b3f4b15cd518_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "The man says, his number is 555-8689.",
+              },
+              {
+                "lang": "uz",
+                "text": "Erkakning aytishicha, uning raqami 555-8689."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "He does not tell Anna his phone number.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "He says it is 555-8689.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "He and Marsha have the same number.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "His number is 555-8986.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Marsha say to Anna?",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha Annaga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/a/a7/a785a0fc-9bdf-4f9e-82a3-aac98beddea5_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Marsha says, \"The supermarket is at 1500 Irving Street. It is near the apartment.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha \"Supermarket 1500 Irving ko'chasida. U kvatiraning yonida\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She does not want Anna to go to the supermarket.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Marsha says the supermarket is near their apartment.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "She says Anna is at 1500 Irving Street.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Marsha says the supermarket is on another street.",
+                "correct": false
+              }
+            ]
+          }
+        ]
+      },
     ],
     speakingPracticeTexts: [
       {
@@ -591,6 +872,45 @@ export default {
               "remember - to have or keep an image or idea in your mind of something or someone from the past.",
               "roommate - a person who shares a room, apartment, or house with someone else.",
               "work - the place where you do your job."
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "cook - to prepare (food) for eating especially by using heat.",
+              "dinner - the main meal of the day.",
+              "excuse - to forgive someone for making a mistake or doing something wrong.",
+              "find - to get or discover something or someone that you are looking for.",
+              "here - in this place or at this location.",
+              "live - to have a home in a specified place.",
+              "near - close to something or someone.",
+              "sorry - feeling sorrow or regret.",
+              "supermarket - a store where customers can buy a variety of foods and household items.",
+              "there - in that place or at that location.",
+              "want - to desire or wish for something.",
+              "wrong - not suitable or appropriate for a particular purpose, situation, or person."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "cook - to prepare (food) for eating especially by using heat.",
+              "dinner - the main meal of the day.",
+              "excuse - to forgive someone for making a mistake or doing something wrong.",
+              "find - to get or discover something or someone that you are looking for.",
+              "here - in this place or at this location.",
+              "live - to have a home in a specified place.",
+              "near - close to something or someone.",
+              "sorry - feeling sorrow or regret.",
+              "supermarket - a store where customers can buy a variety of foods and household items.",
+              "there - in that place or at that location.",
+              "want - to desire or wish for something.",
+              "wrong - not suitable or appropriate for a particular purpose, situation, or person."
             ]
           }
         ]
@@ -814,6 +1134,205 @@ export default {
               {
                 name: "Anna",
                 title: "Apartment C2, here I come!",
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 3,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "I am in my new apartment! Great!",
+              },
+              {
+                name: "Anna",
+                title: "I live with Marsha. We’re roommates.",
+              },
+              {
+                name: "Anna",
+                title: "I want to cook dinner. Oh! Hmmm. Is there a supermarket near here?",
+              },
+              {
+                name: "Anna",
+                title: "Marsha knows. Marsha's work number is 555-8986.",
+              },
+              {
+                name: "Man",
+                title: "Hello.",
+              },
+              {
+                name: "Anna",
+                title: "Hello. Is this Marsha? It is Anna.",
+              },
+              {
+                name: "Man",
+                title: "I am sorry. You have the wrong number.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Is this 555-8986?",
+              },
+              {
+                name: "Man",
+                title: "No. This is 555-8689.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Excuse me!",
+              },
+              {
+                name: "Man",
+                title: "Okay. 'Bye.",
+              },
+              {
+                name: "Anna",
+                title: "One more time. 555-8986. Please be Marsha.",
+              },
+              {
+                name: "Marsha",
+                title: "Hello. This is Marsha.",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Marsha. I want to cook dinner.",
+              },
+              {
+                name: "Marsha",
+                title: "Excuse me? Anna? Is that you?",
+              },
+              {
+                name: "Anna",
+                title: "Oh, yes. I am here!",
+              },
+              {
+                name: "Marsha",
+                title: "Good. You are there.",
+              },
+              {
+                name: "Anna",
+                title: "I want to find a supermarket.",
+              },
+              {
+                name: "Marsha",
+                title: "Oh, okay. The supermarket is at 1500 Irving Street. It is near the apartment.",
+              },
+              {
+                name: "Anna",
+                title: "Great! Goodbye!",
+              },
+              {
+                name: "Marsha",
+                title: "Goodbye, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "There is a big supermarket on our street. And Marsha says I am a good cook!"
+              },
+              {
+                name: "Anna",
+                title: "Until next time! Bye!"
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "I am in my new apartment! Great!",
+              },
+              {
+                name: "Anna",
+                title: "I live with Marsha. We’re roommates.",
+              },
+              {
+                name: "Anna",
+                title: "I want to cook dinner. Oh! Hmmm. Is there a supermarket near here?",
+              },
+              {
+                name: "Anna",
+                title: "Marsha knows. Marsha's work number is 555-8986.",
+              },
+              {
+                name: "Man",
+                title: "Hello.",
+              },
+              {
+                name: "Anna",
+                title: "Hello. Is this Marsha? It is Anna.",
+              },
+              {
+                name: "Man",
+                title: "I am sorry. You have the wrong number.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Is this 555-8986?",
+              },
+              {
+                name: "Man",
+                title: "No. This is 555-8689.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Excuse me!",
+              },
+              {
+                name: "Man",
+                title: "Okay. 'Bye.",
+              },
+              {
+                name: "Anna",
+                title: "One more time. 555-8986. Please be Marsha.",
+              },
+              {
+                name: "Marsha",
+                title: "Hello. This is Marsha.",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Marsha. I want to cook dinner.",
+              },
+              {
+                name: "Marsha",
+                title: "Excuse me? Anna? Is that you?",
+              },
+              {
+                name: "Anna",
+                title: "Oh, yes. I am here!",
+              },
+              {
+                name: "Marsha",
+                title: "Good. You are there.",
+              },
+              {
+                name: "Anna",
+                title: "I want to find a supermarket.",
+              },
+              {
+                name: "Marsha",
+                title: "Oh, okay. The supermarket is at 1500 Irving Street. It is near the apartment.",
+              },
+              {
+                name: "Anna",
+                title: "Great! Goodbye!",
+              },
+              {
+                name: "Marsha",
+                title: "Goodbye, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "There is a big supermarket on our street. And Marsha says I am a good cook!"
+              },
+              {
+                name: "Anna",
+                title: "Until next time! Bye!"
               }
             ]
           }
