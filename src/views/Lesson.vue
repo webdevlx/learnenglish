@@ -11,7 +11,7 @@
           type="info"
         >
           Assalomu alaykum Hurmatli saytimiz foydalanuvchisi! <br />
-          Darslikdagi videolarda qo'llanilgan matnlarning o'zbekcha tarjimasi
+          Darslikdagi videolarda qo'llanilgan matnlarning o'zbekcha tarjimasini
           bilish uchun matn ustiga bosing.
         </v-alert>
 
@@ -104,8 +104,9 @@ export default {
   created() {
     this.$store.state.lesson.lesson = {};
     setTimeout(() => {
-      this.$store.dispatch("fetchLesson", this.id);
-      this.loading = false;
+      this.$store.dispatch("fetchLesson", this.id).then(() => {
+        this.loading = false;
+      });
     }, 1000);
   },
   methods: {

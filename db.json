@@ -41,6 +41,20 @@
       "conversationText": [],
       "questions": [],
       "speakingPracticeText": []
+    },
+    {
+      "id": 4,
+      "title": "What Is It?",
+      "src": {
+        "mainVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/05/c/c8/c829a13b-9764-4b89-ad70-1edbdc3d8013_fullhd.mp4",
+        "resoursePDF": "https://docs.voanews.eu/en-US-LEARN/2019/11/25/cfa0cabb-8b7e-4372-b064-531a2383857d.pdf",
+        "speakingPracticeVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/3/38/388ebb82-93a4-4b12-9690-5378423ca450_hq.mp4",
+        "pronunciationVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/6/60/60cee8b5-a89d-4edf-b480-6ec6d494bb53_hq.mp4",
+        "conversationAudio": "https://av.voanews.com/clips/VLE/2016/02/26/af0324f6-67c5-4c0c-ab42-abb0cd33817c_hq.mp3"
+      },
+      "conversationText": [],
+      "questions": [],
+      "speakingPracticeText": []
     }
   ]
 }

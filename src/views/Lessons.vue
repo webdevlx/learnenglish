@@ -51,8 +51,9 @@ export default {
   },
   created() {
     setTimeout(() => {
-      this.$store.dispatch("fetchLessons");
-      this.loading = false;
+      this.$store.dispatch("fetchLessons").then(() => {
+        this.loading = false;
+      });
     }, 500);
   },
 };

@@ -820,6 +820,287 @@ export default {
           }
         ]
       },
+      {
+        "id": 4,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna say about the city ?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna shahar haqida nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/6/69/69614628-b06f-485d-9124-cbfaf2308a12_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "She says the city is big.",
+              },
+              {
+                "lang": "uz",
+                "text": "Uning aytishicha, shahar katta."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She likes the city.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Anna says the city is great.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She does not like the city.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Anna says the city is big.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Marsha want?",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha nima istaydi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/fb/fb2291a2-849d-4e91-9a6a-3cde8240fc88_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Marsha asks Anna for a pen.",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha Annadan ruchka so'radi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She asks Anna where she has been.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Marsha asks if Anna is going again.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She asks Anna for a pen.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "Marsha wants to give Anna a pen.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Pete say about the book?",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit kitob haqida nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/f/f5/f58956ac-b5c6-4616-9755-93e4691f3077_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Pete says it is a big book.",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit u katta kitob dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "He thanks her for the book.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Pete says it is a big book.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "He asks why she has a book.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Pete wants to look at the book.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Marsha tell Anna?",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha Annaga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/0/0d/0d541c35-8dd6-4905-80f3-31ddfe122894_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Marsha says the toy is not a pen.",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha o'yinchoq, ruchka emas dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Marsha tells Anna the toy is not a pen.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "She tells Anna that she has a pen.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Marsha says it is a toy.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She asks if Anna has another pen.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Pete say about the map?",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit xarita haqida nima ded?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/6/64/64c5255d-ff87-41d2-8e47-022f5ef06b2f_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "He wants to know why Anna has a map of the world.",
+              },
+              {
+                "lang": "uz",
+                "text": "U nega Anna dunyo xaritasiga ega ekanligini bilmoqchi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Pete wants to look at the map.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "He asks why Anna has a map.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "Pete asks Anna to show him the map.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "He wants to put the map on the wall.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Pete say to Anna?",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit Annaga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/02/7/77/77d142f2-9690-4014-9a06-adec84e3bfc2_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "He tells her that she has a lamp.",
+              },
+              {
+                "lang": "uz",
+                "text": "U unga chiroq borligini aytdi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "I want to see your lamp.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Where is my lamb?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Now you have a lamp.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "Why do you have a lamp?",
+                "correct": false
+              }
+            ]
+          }
+        ]
+      },
     ],
     speakingPracticeTexts: [
       {
@@ -867,11 +1148,11 @@ export default {
           {
             lang: "uz",
             speakingPractice: [
-              "know - to have met and talked to (someone).",
-              "number - a number or a set of numbers and other symbols that is used to identify a person or thing.",
-              "remember - to have or keep an image or idea in your mind of something or someone from the past.",
-              "roommate - a person who shares a room, apartment, or house with someone else.",
-              "work - the place where you do your job."
+              "bilmoq - uchrashish va gaplashish (kimdir) bilan.",
+              "raqam - raqam yoki raqamlar to'plami va boshqa belgilar, bu shaxsni yoki narsani aniqlash uchun ishlatiladi.",
+              "eslamoq - o'tmishdagi biror narsa yoki kimnidur xotirangizda fikr yoki tasavvur qilib saqlamoq.",
+              "xonadosh - xonani, kvartirani yoki uyni boshqa birov bilan bo'lishadigan odam.",
+              "ish - siz o'z ishingizni bajaradigan joy."
             ]
           }
         ]
@@ -911,6 +1192,45 @@ export default {
               "there - in that place or at that location.",
               "want - to desire or wish for something.",
               "wrong - not suitable or appropriate for a particular purpose, situation, or person."
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "bag - a soft container used to hold money and other small things.",
+              "big - large in size.",
+              "book - a set of printed sheets of paper that are held together inside a cover or a long written work.",
+              "coffee - a dark brown drink made from ground coffee beans and boiled water.",
+              "lamp - a device that produces light.",
+              "little - small in size.",
+              "map - a picture or chart that shows the rivers, mountains, streets, etc. in a particular area.",
+              "not - makes a word or phrase negative or gives an opposite meaning.",
+              "pen - a writing instrument in uses ink",
+              "pillow - a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down.",
+              "toy - something a child plays with.",
+              "world - the earth and all the people and things on it."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "bag - a soft container used to hold money and other small things.",
+              "big - large in size.",
+              "book - a set of printed sheets of paper that are held together inside a cover or a long written work.",
+              "coffee - a dark brown drink made from ground coffee beans and boiled water.",
+              "lamp - a device that produces light.",
+              "little - small in size.",
+              "map - a picture or chart that shows the rivers, mountains, streets, etc. in a particular area.",
+              "not - makes a word or phrase negative or gives an opposite meaning.",
+              "pen - a writing instrument in uses ink",
+              "pillow - a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down.",
+              "toy - something a child plays with.",
+              "world - the earth and all the people and things on it."
             ]
           }
         ]
@@ -1076,64 +1396,64 @@ export default {
             lang: 'uz',
             conversation: [
               {
-                name: "Jonathan",
-                title: "Hey, Pete! Who’s your friend?",
+                name: "Jonatan",
+                title: "Hey, Pit! Sizning do'stingiz kim?",
               },
               {
-                name: "Pete",
-                title: "She is Anna. She is new to D.C.",
+                name: "Pit",
+                title: "U Anna. U D.C da yangi.",
               },
               {
-                name: "Jonathan",
-                title: "Where are you from?",
-              },
-              {
-                name: "Anna",
-                title: "I am from a small town.",
-              },
-              {
-                name: "Jonathan",
-                title: "Well, welcome to D.C.",
+                name: "Jonatan",
+                title: "Qayerdansiz?",
               },
               {
                 name: "Anna",
-                title: "Thank you.",
+                title: "Men kichik shaharchadanman.",
               },
               {
-                name: "Jonathan",
-                title: "I am Jonathan. I am in apartment B4.",
+                name: "Jonatan",
+                title: "Yaxshi, D.C ga xush kelibsiz.",
               },
               {
                 name: "Anna",
-                title: "I am in apartment C2. Marsha is my roommate.",
+                title: "Rahmat.",
               },
               {
-                name: "Jonathan",
-                title: "I know Marsha. She is nice.",
+                name: "Jonatan",
+                title: "Men Jonatanman. Men B4 kvartiradaman.",
               },
               {
-                name: "Pete",
-                title: "And I am in Apartment D7. I have to go now.",
+                name: "Anna",
+                title: "Men C2 kvartiradaman. Marsha - mening xonadoshim.",
+              },
+              {
+                name: "Jonatan",
+                title: "Men Marshani bilaman. U yaxshi.",
+              },
+              {
+                name: "Pit",
+                title: "Va men D7 kvartiradaman. Hozir ketishim kerak.",
               },
               {
                 name: "Anna",
                 title: "Oh!",
               },
               {
-                name: "Pete",
-                title: "Remember to call Marsha at work. Tell her you’re here.",
+                name: "Pit",
+                title: "Qo'ng'iroq qilishni unutmang, Marsha ishda. Unga bu yerda ekanligingizni ayting.",
               },
               {
                 name: "Anna",
-                title: "Right, thanks, Pete. Nice to meet you!",
+                title: "To'g'ri, rahmat, Pit. Tanishganimdan xursandman!",
               },
               {
-                name: "Jonathan",
-                title: "You too, Bye.",
+                name: "Jonatan",
+                title: "Siz ham, Xayr.",
               },
               {
                 name: "Anna",
-                title: "Apartment C2, here I come!",
+                title: "C2 kvartira, mana keldim!",
               }
             ]
           }
@@ -1236,6 +1556,209 @@ export default {
               {
                 name: "Anna",
                 title: "Until next time! Bye!"
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "I am in my new apartment! Great!",
+              },
+              {
+                name: "Anna",
+                title: "I live with Marsha. We’re roommates.",
+              },
+              {
+                name: "Anna",
+                title: "I want to cook dinner. Oh! Hmmm. Is there a supermarket near here?",
+              },
+              {
+                name: "Anna",
+                title: "Marsha knows. Marsha's work number is 555-8986.",
+              },
+              {
+                name: "Man",
+                title: "Hello.",
+              },
+              {
+                name: "Anna",
+                title: "Hello. Is this Marsha? It is Anna.",
+              },
+              {
+                name: "Man",
+                title: "I am sorry. You have the wrong number.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Is this 555-8986?",
+              },
+              {
+                name: "Man",
+                title: "No. This is 555-8689.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. Excuse me!",
+              },
+              {
+                name: "Man",
+                title: "Okay. 'Bye.",
+              },
+              {
+                name: "Anna",
+                title: "One more time. 555-8986. Please be Marsha.",
+              },
+              {
+                name: "Marsha",
+                title: "Hello. This is Marsha.",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Marsha. I want to cook dinner.",
+              },
+              {
+                name: "Marsha",
+                title: "Excuse me? Anna? Is that you?",
+              },
+              {
+                name: "Anna",
+                title: "Oh, yes. I am here!",
+              },
+              {
+                name: "Marsha",
+                title: "Good. You are there.",
+              },
+              {
+                name: "Anna",
+                title: "I want to find a supermarket.",
+              },
+              {
+                name: "Marsha",
+                title: "Oh, okay. The supermarket is at 1500 Irving Street. It is near the apartment.",
+              },
+              {
+                name: "Anna",
+                title: "Great! Goodbye!",
+              },
+              {
+                name: "Marsha",
+                title: "Goodbye, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "There is a big supermarket on our street. And Marsha says I am a good cook!"
+              },
+              {
+                name: "Anna",
+                title: "Until next time! Bye!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 4,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Pete, hi! Hi, we are here!",
+              },
+              {
+                name: "Pete",
+                title: "Hi, Anna! Hi, Marsha!",
+              },
+              {
+                name: "Anna",
+                title: "Hi!",
+              },
+              {
+                name: "Pete",
+                title: "How are you two?",
+              },
+              {
+                name: "Marsha",
+                title: "I am great!",
+              },
+              {
+                name: "Anna",
+                title: "You know, Pete, I am new to D.C. The city is big.",
+              },
+              {
+                name: "Pete",
+                title: "Yeah. But you learn a little more every day. How's the new apartment?",
+              },
+              {
+                name: "Anna",
+                title: "The new apartment is great! Let's get coffee!",
+              },
+              {
+                name: "Marsha",
+                title: "Anna, do you have a pen?",
+              },
+              {
+                name: "Anna",
+                title: "Yes. I have a pen in my bag.",
+              },
+              {
+                name: "Anna",
+                title: "I have a ...",
+              },
+              {
+                name: "Pete",
+                title: "It is not a pen. It is a book. It is a big book.",
+              },
+              {
+                name: "Anna",
+                title: "Yes. Yes it is, Pete. I know I have a pen, though...",
+              },
+              {
+                name: "Anna",
+                title: "I have a ....",
+              },
+              {
+                name: "Marsha",
+                title: "It is not a pen, Anna ... a toy?",
+              },
+              {
+                name: "Anna",
+                title: "I have a ....",
+              },
+              {
+                name: "Pete",
+                title: "And it is a pillow!",
+              },
+              {
+                name: "Anna",
+                title: "Pete, Marsha, I know I have a pen.",
+              },
+              {
+                name: "Marsha",
+                title: "Anna, it is a map.",
+              },
+              {
+                name: "Pete",
+                title: "Why do you have a map of the world?",
+              },
+              {
+                name: "Anna",
+                title: "Pete, Marsha. Now I know I have a pen.",
+              },
+              {
+                name: "Pete",
+                title: "And now you have a lamp."
+              },
+              {
+                name: "Marsha",
+                title: "Anna."
+              },
+              {
+                name: "Anna",
+                title: "I have a pen! Let’s get coffee!"
               }
             ]
           },
