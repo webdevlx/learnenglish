@@ -1101,6 +1101,282 @@ export default {
           }
         ]
       },
+      {
+        "id": 5,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where is Marsha today? ",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha bugun qayerda?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/1/1b/1bcb1b23-1a74-4fdd-a292-037ba09c3521_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"My friend Marsha is at her friend's house.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Mening do'stim Marsha do'stining uyida\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Marsha is at the front of the house.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Marsha is at her house.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Marsha is wearing a blouse.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Marsha is at her friend's house.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Marsha say? ",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/8/8e/8e89744a-3871-453d-b1f6-5ad89a47d1be_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Marsha says \"Anna, where are you?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha \"Anna, qayerdasiz?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Andy wears shoes.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Anna, what are you doing?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Anna, where are you?",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "Anna, this can't be true.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where is Anna?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna qayerda?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/0/03/03d83329-066f-4c78-8360-755f823e425f_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"I am in the bathroom.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Men yuvinish xonasidaman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She is in the ballroom.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She is in the bathroom.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "She is in the restroom.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She is in the bedroom.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna tell Marsha?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna Marshaga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/e/e9/e9b9f8b9-8b19-4ded-a4c2-c6056f3b8a3d_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna tells her, \"I am in the kitchen.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna unga \"Men oshxonadaman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "I like chicken.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "What is in the kitchen?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "I am in the kitchen.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where is Marsha? ",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha qayerda?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/7/7b/7b8b7cd1-4507-4cfe-a689-162c64e9fd90_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Marsha says \"I am in the bedroom.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Marsha \"Men yotoqxondaman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She is in the bathroom.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She is in the bedroom.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "She is in the ballroom.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She is in the kitchen.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna say? ",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/a/a7/a7609eb8-56cf-4c8f-949e-e5ddf976e10d_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"Let's go upstairs.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Keling, yuqoriga chiqaylik\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Let's go upstairs.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Let's sit on the chairs.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Come upstairs.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "I am on the stairs.",
+                "correct": false
+              }
+            ]
+          }
+        ]
+      }
     ],
     speakingPracticeTexts: [
       {
@@ -1231,6 +1507,43 @@ export default {
               "pillow - a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down.",
               "toy - something a child plays with.",
               "world - the earth and all the people and things on it."
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "bathroom - a room with a sink and toilet and usually a bathtub or shower.",
+              "beautiful - very good and pleasing; having beauty.",
+              "bedroom - a room used for sleeping.",
+              "eat - to take food into your mouth and swallow it.",
+              "house - a building in which a family lives.",
+              "kitchen - a room in which food is cooked.",
+              "living room - a room in a house for general family use.",
+              "relax - to spend time resting and doing something enjoyable.",
+              "sleep - to rest your mind and body by closing your eyes.",
+              "upstairs - on or to a higher floor of a building.",
+              "wash - to clean something with water and usually soap."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "bathroom - a room with a sink and toilet and usually a bathtub or shower.",
+              "beautiful - very good and pleasing; having beauty.",
+              "bedroom - a room used for sleeping.",
+              "eat - to take food into your mouth and swallow it.",
+              "house - a building in which a family lives.",
+              "kitchen - a room in which food is cooked.",
+              "living room - a room in a house for general family use.",
+              "relax - to spend time resting and doing something enjoyable.",
+              "sleep - to rest your mind and body by closing your eyes.",
+              "upstairs - on or to a higher floor of a building.",
+              "wash - to clean something with water and usually soap."
             ]
           }
         ]
@@ -1856,6 +2169,101 @@ export default {
               {
                 name: "Anna",
                 title: "Until next time! Bye!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 5,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hello, everyone! Today my friend Marsha is at her friend's house. She says it is beautiful. I want to see this house! Here we are!",
+              },
+              {
+                name: "Anna",
+                title: "Marsha, I am in the kitchen! It is a beautiful kitchen!",
+              },
+              {
+                name: "Marsha",
+                title: "It is beautiful. We cook in the kitchen.",
+              },
+              {
+                name: "Anna",
+                title: "I eat in the kitchen.",
+              },
+              {
+                name: "Marsha",
+                title: "We relax in the living room.",
+              },
+              {
+                name: "Anna",
+                title: "I relax in the living room. Marsha, let’s go upstairs!",
+              },
+              {
+                name: "Marsha",
+                title: "Anna? Where are you?",
+              },
+              {
+                name: "Anna",
+                title: "Marsha, I am in the bathroom! I wash in the bathroom.",
+              },
+              {
+                name: "Marsha",
+                title: "I am in the bedroom. We sleep in the bedroom.",
+              },
+              {
+                name: "Anna",
+                title: "I sleep in the bedroom!",
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hello, everyone! Today my friend Marsha is at her friend's house. She says it is beautiful. I want to see this house! Here we are!",
+              },
+              {
+                name: "Anna",
+                title: "Marsha, I am in the kitchen! It is a beautiful kitchen!",
+              },
+              {
+                name: "Marsha",
+                title: "It is beautiful. We cook in the kitchen.",
+              },
+              {
+                name: "Anna",
+                title: "I eat in the kitchen.",
+              },
+              {
+                name: "Marsha",
+                title: "We relax in the living room.",
+              },
+              {
+                name: "Anna",
+                title: "I relax in the living room. Marsha, let’s go upstairs!",
+              },
+              {
+                name: "Marsha",
+                title: "Anna? Where are you?",
+              },
+              {
+                name: "Anna",
+                title: "Marsha, I am in the bathroom! I wash in the bathroom.",
+              },
+              {
+                name: "Marsha",
+                title: "I am in the bedroom. We sleep in the bedroom.",
+              },
+              {
+                name: "Anna",
+                title: "I sleep in the bedroom!",
               }
             ]
           }
