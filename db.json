@@ -69,6 +69,20 @@
       "conversationText": [],
       "questions": [],
       "speakingPracticeText": []
+    },
+    {
+      "id": 6,
+      "title": "Where Is the Gym?",
+      "src": {
+        "mainVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/05/1/17/17b61020-32a1-4021-9575-adbf9ee76979_fullhd.mp4",
+        "resoursePDF": "https://docs.voanews.eu/en-US-LEARN/2019/11/25/d249aee0-12bb-499f-9e10-ddff10b54cc0.pdf",
+        "speakingPracticeVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/b/b0/b0f71e22-2774-4bf8-8463-3a1aa50f71bc_hq.mp4",
+        "pronunciationVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/4/46/46b4eb63-d3da-43f9-aec8-3368d65ff55e_hq.mp4",
+        "conversationAudio": "https://av.voanews.com/clips/VLE/2016/03/10/66b63229-1dc5-40ab-886d-1f4b891adf6b_hq.mp3"
+      },
+      "conversationText": [],
+      "questions": [],
+      "speakingPracticeText": []
     }
   ]
 }

@@ -1376,6 +1376,287 @@ export default {
             ]
           }
         ]
+      },
+      {
+        "id": 6,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna say to Pete?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna Pitga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/4/4d/4d41147b-1fc1-4f66-970a-7437db968f2f_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says “Where is the gym?”",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Sport zali qayerda?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Where is the gym?",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Where is Tim?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "What are you wearing?",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "What are you wearing?",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Pete say to Anna?",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit Annaga nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/c/c8/c87dbf4b-2815-49b4-b2a2-58a8ca2278e2_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Pete says \"The gym is across from the lounge.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit \"Sport zali dam olish xonasining qarshisida\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "The gym is across from the lounge.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Tim lives across from the lounge.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "The gym is near to the lounge.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "The gym is behind the lounge.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where is the gym?",
+              },
+              {
+                "lang": "uz",
+                "text": "Sport zali qayerda?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/c/ca/cab1778c-65cb-4512-b646-492c17f50f46_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "\"It's next to the mailroom.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "\"Bu pochta xonasi yonida\""
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "It's next to the mailroom.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "It's across from the mailroom.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "It's behind the mailroom.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "It's near the mailroom.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna ask Pete?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna Pitdan nima so'radi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/6/69/69690c4b-ed32-4e21-b60e-7afd00b60efd_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "\"The gym is across from…. what?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "\"Sport zali qarama-qarshi tomonida ...nima?\""
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "The gym is across from … what?",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "The gym is near to …. what?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Tim lives across from … what?",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "You are the boss? What?",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does she say?",
+              },
+              {
+                "lang": "uz",
+                "text": "U nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/6/6b/6bb2a607-a15e-4e26-84cd-74785489ab17_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "\"Across from the lounge.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "\"Dam olish xonasining narigi tomonida.\""
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Across from the lounge.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Walk across the lounge.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "A crosswalk is near the lounge.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Where are you now?",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Pete say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Pit nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/5/5f/5f7a8c2e-f8d2-49c4-b695-12aa5393b316_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "\"It is behind the lobby.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "\"Bu qabulxona orqasida.\""
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "It is behind the lobby.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Have you seen Robbie?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "It is across from the lobby.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "I live near the lobby.",
+                "correct": false
+              }
+            ]
+          }
+        ]
       }
     ],
     speakingPracticeTexts: [
@@ -1544,6 +1825,45 @@ export default {
               "sleep - to rest your mind and body by closing your eyes.",
               "upstairs - on or to a higher floor of a building.",
               "wash - to clean something with water and usually soap."
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "across from - on the opposite side from someone or something.",
+              "behind - in or to a place at the back of or to the rear of someone or something.",
+              "elevator - a machine used for carrying people or things to different level in a building.",
+              "every - used to describe how often some repeated activity or event happens or is done.",
+              "gym - a room or building that has equipment for sports activities or exercise.",
+              "lobby - a large open area inside and near the entrance of a public building (such us a hotel or theater).",
+              "lounge - a room with comfortable furniture for relaxing.",
+              "mailroom - a room in which mail is processed and sorted.",
+              "next to - at the side of someone or something.",
+              "parking garage - a building in which people usually pay to park their cars, truck, etc.",
+              "rooftop - the cover or top of a building or vehicle.",
+              "work out - to perform athletic exercises in order to improve your health or physical fitness."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "across from - on the opposite side from someone or something.",
+              "behind - in or to a place at the back of or to the rear of someone or something.",
+              "elevator - a machine used for carrying people or things to different level in a building.",
+              "every - used to describe how often some repeated activity or event happens or is done.",
+              "gym - a room or building that has equipment for sports activities or exercise.",
+              "lobby - a large open area inside and near the entrance of a public building (such us a hotel or theater).",
+              "lounge - a room with comfortable furniture for relaxing.",
+              "mailroom - a room in which mail is processed and sorted.",
+              "next to - at the side of someone or something.",
+              "parking garage - a building in which people usually pay to park their cars, truck, etc.",
+              "rooftop - the cover or top of a building or vehicle.",
+              "work out - to perform athletic exercises in order to improve your health or physical fitness."
             ]
           }
         ]
@@ -2265,6 +2585,205 @@ export default {
                 name: "Anna",
                 title: "I sleep in the bedroom!",
               }
+            ]
+          }
+        ]
+      },
+      {
+        id: 6,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hi there! I’m Anna and I live in Washington, D.C. Every day I learn more about this great city. People in Washington like to work out! Oh, hi, Pete. How’s it going?",
+              },
+              {
+                name: "Pete",
+                title: "Hi, Anna. It’s going great. How’s it going with you?",
+              },
+              {
+                name: "Anna",
+                title: "Things are awesome! Pete, I want to work out. Where is the gym?",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge. It’s next to the mailroom. Go that way.",
+              },
+              {
+                name: "Anna",
+                title: "Thanks, Pete!",
+              },
+              {
+                name: "Pete",
+                title: "No, Anna! Not that way! Go that way!",
+              },
+              {
+                name: "Anna",
+                title: "Oh, Pete. This is not the gym.",
+              },
+              {
+                name: "Pete",
+                title: "That’s right, Anna. This is the mailroom.",
+              },
+              {
+                name: "Anna",
+                title: "The gym is across from … what?",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge.",
+              },
+              {
+                name: "Anna",
+                title: "Across from the lounge. Right. Thanks!",
+              },
+              {
+                name: "Anna",
+                title: "Pete! This is not the gym!",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge. It is behind the lobby.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Right. See you.",
+              },
+              {
+                name: "Pete",
+                title: "See you, Anna!",
+              },
+              {
+                name: "Anna",
+                title: "See you.",
+              },
+              {
+                name: "Pete",
+                title: "See you, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "This is not the gym. This is a parking garage.",
+              },
+              {
+                name: "Anna",
+                title: "Hello? Pete?",
+              },
+              {
+                name: "Anna",
+                title: "This is not a gym. This is a rooftop.",
+              },
+              {
+                name: "Anna",
+                title: "Pete! Pete?",
+              },
+              {
+                name: "Pete",
+                title: "I want to work out too! Join me!",
+              },
+              {
+                name: "Anna",
+                title: "I’m good.",
+              },
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hi there! I’m Anna and I live in Washington, D.C. Every day I learn more about this great city. People in Washington like to work out! Oh, hi, Pete. How’s it going?",
+              },
+              {
+                name: "Pete",
+                title: "Hi, Anna. It’s going great. How’s it going with you?",
+              },
+              {
+                name: "Anna",
+                title: "Things are awesome! Pete, I want to work out. Where is the gym?",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge. It’s next to the mailroom. Go that way.",
+              },
+              {
+                name: "Anna",
+                title: "Thanks, Pete!",
+              },
+              {
+                name: "Pete",
+                title: "No, Anna! Not that way! Go that way!",
+              },
+              {
+                name: "Anna",
+                title: "Oh, Pete. This is not the gym.",
+              },
+              {
+                name: "Pete",
+                title: "That’s right, Anna. This is the mailroom.",
+              },
+              {
+                name: "Anna",
+                title: "The gym is across from … what?",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge.",
+              },
+              {
+                name: "Anna",
+                title: "Across from the lounge. Right. Thanks!",
+              },
+              {
+                name: "Anna",
+                title: "Pete! This is not the gym!",
+              },
+              {
+                name: "Pete",
+                title: "The gym is across from the lounge. It is behind the lobby.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Right. See you.",
+              },
+              {
+                name: "Pete",
+                title: "See you, Anna!",
+              },
+              {
+                name: "Anna",
+                title: "See you.",
+              },
+              {
+                name: "Pete",
+                title: "See you, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "This is not the gym. This is a parking garage.",
+              },
+              {
+                name: "Anna",
+                title: "Hello? Pete?",
+              },
+              {
+                name: "Anna",
+                title: "This is not a gym. This is a rooftop.",
+              },
+              {
+                name: "Anna",
+                title: "Pete! Pete?",
+              },
+              {
+                name: "Pete",
+                title: "I want to work out too! Join me!",
+              },
+              {
+                name: "Anna",
+                title: "I’m good.",
+              },
             ]
           }
         ]
