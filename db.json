@@ -83,6 +83,20 @@
       "conversationText": [],
       "questions": [],
       "speakingPracticeText": []
+    },
+    {
+      "id": 7,
+      "title": "What Are You Doing?",
+      "src": {
+        "mainVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/05/5/54/54ebe82e-9578-4c39-9ca9-42dae639be4f_fullhd.mp4",
+        "resoursePDF": "https://docs.voanews.eu/en-US-LEARN/2019/11/25/33517f7a-9df3-4fe2-b4fe-11f582773997.pdf",
+        "speakingPracticeVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/8/8b/8b8e6106-a0d8-42d9-b8b4-f4eb0e7747c2_hq.mp4",
+        "pronunciationVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/c/c3/c362e427-a43a-4213-afd5-4a1d26cde23c_hq.mp4",
+        "conversationAudio": "https://av.voanews.com/clips/VLE/2016/03/16/5d724fbc-a907-4a48-9221-c1813d248168_hq.mp3"
+      },
+      "conversationText": [],
+      "questions": [],
+      "speakingPracticeText": []
     }
   ]
 }

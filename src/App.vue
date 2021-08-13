@@ -23,7 +23,7 @@
     <!-- Phone mode -->
     <div v-else>
       <v-navigation-drawer v-model="drawer" color="primary" fixed dark>
-        <v-list>
+        <v-list rounded>
           <v-list-item>
             <v-btn fixed left @click="toggleTheme" text rounded>
               <v-icon>mdi-theme-light-dark</v-icon>
@@ -33,14 +33,15 @@
             </v-btn>
           </v-list-item>
 
-          <v-list-item
-            v-for="link in links"
-            :key="`${link.label}-header-link-mobile`"
-          >
-            <v-btn text rounded :to="link.url">
+          <v-list-item-group v-model="selectedItem">
+            <v-list-item
+              v-for="link in links"
+              :key="`${link.label}-header-link-mobile`"
+              :to="link.url"
+            >
               {{ link.label }}
-            </v-btn>
-          </v-list-item>
+            </v-list-item>
+          </v-list-item-group>
         </v-list>
       </v-navigation-drawer>
 
@@ -69,7 +70,7 @@
           {{ link.label }}
         </v-btn>
         <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
-          {{ new Date().getFullYear() }} — <strong>Vuetify Dashboard</strong>
+          {{ new Date().getFullYear() }} — <strong>Let's Learn English</strong>
         </v-col>
       </v-row>
     </v-footer>
@@ -82,15 +83,16 @@ export default {
   data() {
     return {
       drawer: false,
+      selectedItem: null,
       links: [
         {
           label: "Home",
-          url: "/"
+          url: "/",
         },
         {
           label: "Lessons",
-          url: '/lessons'
-        }
+          url: "/lessons",
+        },
       ],
     };
   },

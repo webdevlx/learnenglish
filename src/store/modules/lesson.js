@@ -1657,6 +1657,272 @@ export default {
             ]
           }
         ]
+      },
+      {
+        "id": 7,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Caty say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Keti nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/3/3d/3da3f1f4-42cb-468e-81dc-c53643c0c2bd_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Caty says \"What are you doing?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Keti \"Nima qilayapsiz?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Where are you going?",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Who are you?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "What are you doing?",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "What do you want?",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What is Amelia doing?",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya nima qilayapti?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/d/d8/d8220123-c870-4b10-92b7-962bdaaf8ae6_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Amelia says \"I am reading for my show.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya \"Men o'z ko'rsatuvimni o'qiyapman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She doesn't know.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She's pleading to save her show.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She is reading for her show.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Amelia say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/8/87/8738a676-bfc9-41ea-8641-92cd703cc780_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Amelia says \"I am reading.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya \"Men o'qiyapman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She is recording.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "She is reading.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "She is bleeding.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She is feeding.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna ask?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima so'radi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/0/0b/0bb3355e-0985-4139-abf5-8f3d4623bcd0_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna asks \"Are you recording?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Ovoz yozayapsizmi?\" deb so'radi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Are you reading?",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Are you roaring?",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Are you recording?",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What is he doing?",
+              },
+              {
+                "lang": "uz",
+                "text": "U nima qilayapti?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/c/cf/cf97de6d-668f-4443-a5d1-39757e29d8d4_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Jonathan says \"I am doing my show.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Jonatan \"Men o'z ko'rsatuvimni bajarayapman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "He is doing his shopping.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "He is reading.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "He is doing his show.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "He is writing.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna ask?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima so'radi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/b/b6/b6d93ff4-1585-4bae-ae73-93c5fe4ba899_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna asks \"What are you doing?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Nima qilayapsiz?\" deb so'radi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Water? Are you drinking?",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "What are you doing?",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "Are you recording?",
+                "correct": false
+              }
+            ]
+          }
+        ]
       }
     ],
     speakingPracticeTexts: [
@@ -1864,6 +2130,45 @@ export default {
               "parking garage - a building in which people usually pay to park their cars, truck, etc.",
               "rooftop - the cover or top of a building or vehicle.",
               "work out - to perform athletic exercises in order to improve your health or physical fitness."
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "both - the person whose job is to tell other workers what to do.",
+              "bother - to annoy someone or to cause someone to feel annoyed.",
+              "busy - actively doing something.",
+              "excited - very enthusiastic and eager about something.",
+              "nervous - having or showing feelings of being worried and afraid about what might happen.",
+              "news - information that is reported in a newspaper, magazine, television news program, or website.",
+              "office - a building or room in which people work at desks doing business or professional activities.",
+              "read - to look at and understand the meaning of letters, words, symbols, etc.",
+              "record - to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later.",
+              "show - a television or radio program",
+              "work - to do things as part of your job.",
+              "write - to create a book, poem, story, etc. by writing words on paper or on a computer."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "both - the person whose job is to tell other workers what to do.",
+              "bother - to annoy someone or to cause someone to feel annoyed.",
+              "busy - actively doing something.",
+              "excited - very enthusiastic and eager about something.",
+              "nervous - having or showing feelings of being worried and afraid about what might happen.",
+              "news - information that is reported in a newspaper, magazine, television news program, or website.",
+              "office - a building or room in which people work at desks doing business or professional activities.",
+              "read - to look at and understand the meaning of letters, words, symbols, etc.",
+              "record - to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later.",
+              "show - a television or radio program",
+              "work - to do things as part of your job.",
+              "write - to create a book, poem, story, etc. by writing words on paper or on a computer."
             ]
           }
         ]
@@ -2784,6 +3089,437 @@ export default {
                 name: "Anna",
                 title: "I’m good.",
               },
+            ]
+          }
+        ]
+      },
+      {
+        id: 7,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Caty",
+                title: "Come in.",
+              },
+              {
+                name: "Caty",
+                title: "Well, Anna, welcome.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you.",
+              },
+              {
+                name: "Caty",
+                title: "I am your boss, Caty Weaver. But, please call me Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Just Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Sure thing, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Okay then. Are you excited?",
+              },
+              {
+                name: "Anna",
+                title: "Yes, I am excited!",
+              },
+              {
+                name: "Caty",
+                title: "So sorry, but I am busy. Please meet your co-workers. But remember, they are busy working.",
+              },
+              {
+                name: "Anna",
+                title: "Sure. Thanks, Ms. Weaver.",
+              },
+              {
+                name: "Anna",
+                title: "Hi there! I’m Anna.",
+              },
+              {
+                name: "Anne",
+                title: "Hi, Anna. I’m Anne.",
+              },
+              {
+                name: "Anna",
+                title: "Nice to meet you. What are you doing?",
+              },
+              {
+                name: "Anne",
+                title: "Um, I’m writing.",
+              },
+              {
+                name: "Anna",
+                title: "You are writing! You are writing a lot!",
+              },
+              {
+                name: "Anna",
+                title: "Oh! Oh dear.",
+              },
+              {
+                name: "Anne",
+                title: "No! No! That's okay.",
+              },
+              {
+                name: "Anna",
+                title: "I am sorry!",
+              },
+              {
+                name: "Anne",
+                title: "That’s okay. Really.",
+              },
+              {
+                name: "Anna",
+                title: "I am sorry!",
+              },
+              {
+                name: "Anne",
+                title: "Please. Please. Please stop. Please.",
+              },
+              {
+                name: "Anna",
+                title: "Sorry. Sorry.",
+              },
+              {
+                name: "Jonathan",
+                title: "\"and people all around the world are waiting to hear news about the next president...\"",
+              },
+              {
+                name: "Anna",
+                title: "Jonathan, hi! Remember me? I live in your building.",
+              },
+              {
+                name: "Jonathan",
+                title: "Oh. Uh. Hi, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "What are you doing?",
+              },
+              {
+                name: "Jonathan",
+                title: "I am doing my show!",
+              },
+              {
+                name: "Anna",
+                title: "Oh, sorry. Are you recording?",
+              },
+              {
+                name: "Jonathan",
+                title: "Yes! And, now I have to record again!",
+              },
+              {
+                name: "Anna",
+                title: "Sorry. Have a good show.",
+              },
+              {
+                name: "Jonathan",
+                title: "Thank you.",
+              },
+              {
+                name: "Anna",
+                title: "Sorry.",
+              },
+              {
+                name: "Amelia",
+                title: "The word of the day is social. Social -",
+              },
+              {
+                name: "Anna",
+                title: "Oh! Hi!",
+              },
+              {
+                name: "Amelia",
+                title: "- is an adjective.",
+              },
+              {
+                name: "Anna",
+                title: "Hi! I’m Anna!",
+              },
+              {
+                name: "Amelia",
+                title: "Hi. I’m Amelia.",
+              },
+              {
+                name: "Anna",
+                title: "Nice to meet you!",
+              },
+              {
+                name: "Anna",
+                title: "What are you doing?",
+              },
+              {
+                name: "Amelia",
+                title: "I’m reading.",
+              },
+              {
+                name: "Anna",
+                title: "Are you reading the news? Hi!",
+              },
+              {
+                name: "Amelia",
+                title: "No, I’m reading for my show.",
+              },
+              {
+                name: "Amelia",
+                title: "Can I read again?",
+              },
+              {
+                name: "Anna",
+                title: "Sorry.",
+              },
+              {
+                name: "Anna",
+                title: "This day is not going well.",
+              },
+              {
+                name: "Caty",
+                title: "Anna! Hi! What’re you doing?",
+              },
+              {
+                name: "Anna",
+                title: "I am bothering people, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Let’s go to my office and talk.",
+              },
+              {
+                name: "Anna",
+                title: "I like to talk with you, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "It’s Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Thanks ... Ms. Weaver",
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Caty",
+                title: "Come in.",
+              },
+              {
+                name: "Caty",
+                title: "Well, Anna, welcome.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you.",
+              },
+              {
+                name: "Caty",
+                title: "I am your boss, Caty Weaver. But, please call me Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Just Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Sure thing, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Okay then. Are you excited?",
+              },
+              {
+                name: "Anna",
+                title: "Yes, I am excited!",
+              },
+              {
+                name: "Caty",
+                title: "So sorry, but I am busy. Please meet your co-workers. But remember, they are busy working.",
+              },
+              {
+                name: "Anna",
+                title: "Sure. Thanks, Ms. Weaver.",
+              },
+              {
+                name: "Anna",
+                title: "Hi there! I’m Anna.",
+              },
+              {
+                name: "Anne",
+                title: "Hi, Anna. I’m Anne.",
+              },
+              {
+                name: "Anna",
+                title: "Nice to meet you. What are you doing?",
+              },
+              {
+                name: "Anne",
+                title: "Um, I’m writing.",
+              },
+              {
+                name: "Anna",
+                title: "You are writing! You are writing a lot!",
+              },
+              {
+                name: "Anna",
+                title: "Oh! Oh dear.",
+              },
+              {
+                name: "Anne",
+                title: "No! No! That's okay.",
+              },
+              {
+                name: "Anna",
+                title: "I am sorry!",
+              },
+              {
+                name: "Anne",
+                title: "That’s okay. Really.",
+              },
+              {
+                name: "Anna",
+                title: "I am sorry!",
+              },
+              {
+                name: "Anne",
+                title: "Please. Please. Please stop. Please.",
+              },
+              {
+                name: "Anna",
+                title: "Sorry. Sorry.",
+              },
+              {
+                name: "Jonathan",
+                title: "\"and people all around the world are waiting to hear news about the next president...\"",
+              },
+              {
+                name: "Anna",
+                title: "Jonathan, hi! Remember me? I live in your building.",
+              },
+              {
+                name: "Jonathan",
+                title: "Oh. Uh. Hi, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "What are you doing?",
+              },
+              {
+                name: "Jonathan",
+                title: "I am doing my show!",
+              },
+              {
+                name: "Anna",
+                title: "Oh, sorry. Are you recording?",
+              },
+              {
+                name: "Jonathan",
+                title: "Yes! And, now I have to record again!",
+              },
+              {
+                name: "Anna",
+                title: "Sorry. Have a good show.",
+              },
+              {
+                name: "Jonathan",
+                title: "Thank you.",
+              },
+              {
+                name: "Anna",
+                title: "Sorry.",
+              },
+              {
+                name: "Amelia",
+                title: "The word of the day is social. Social -",
+              },
+              {
+                name: "Anna",
+                title: "Oh! Hi!",
+              },
+              {
+                name: "Amelia",
+                title: "- is an adjective.",
+              },
+              {
+                name: "Anna",
+                title: "Hi! I’m Anna!",
+              },
+              {
+                name: "Amelia",
+                title: "Hi. I’m Amelia.",
+              },
+              {
+                name: "Anna",
+                title: "Nice to meet you!",
+              },
+              {
+                name: "Anna",
+                title: "What are you doing?",
+              },
+              {
+                name: "Amelia",
+                title: "I’m reading.",
+              },
+              {
+                name: "Anna",
+                title: "Are you reading the news? Hi!",
+              },
+              {
+                name: "Amelia",
+                title: "No, I’m reading for my show.",
+              },
+              {
+                name: "Amelia",
+                title: "Can I read again?",
+              },
+              {
+                name: "Anna",
+                title: "Sorry.",
+              },
+              {
+                name: "Anna",
+                title: "This day is not going well.",
+              },
+              {
+                name: "Caty",
+                title: "Anna! Hi! What’re you doing?",
+              },
+              {
+                name: "Anna",
+                title: "I am bothering people, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Let’s go to my office and talk.",
+              },
+              {
+                name: "Anna",
+                title: "I like to talk with you, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "It’s Caty.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Thanks ... Ms. Weaver",
+              }
             ]
           }
         ]
