@@ -1923,6 +1923,231 @@ export default {
             ]
           }
         ]
+      },
+      {
+        "id": 8,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/a/a6/a655d369-023a-48b2-a97e-e5a37b96b249_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"Yes, Ms. Weaver. I am busy.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Ha, Uiver xonim. Men bandman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She says that she is busy.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "She says that she sees bees.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She says that she is not busy.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She says that she wants to meet at 5pm.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Amelia say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/e/ec/ec3871f8-927f-4973-8ed1-07393dcfe804_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Amelia says \"I'm a little busy.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Ameliya \"Men biroz bandman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Amelia says she is busy.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Amelia says she is not busy.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Amelia says she is a little busy.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What is Jonathan doing when he turns the studio light on?",
+              },
+              {
+                "lang": "uz",
+                "text": "Jonatan studiya chiroqlari yonganda nima qilayapti?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/8/80/80f1041f-4dc9-4ddb-8751-55bcf2caa95e_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Jonathan says \"I am busy. When the studio light is on, I am recording my evening show.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Jonatan \"Men bandman. Studiya chiroqlari yonganda, men kechki ko'rsatuvimni yozayapman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "He is calling his friends.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "He is recording his show.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "He is watching a show.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "He is taking a nap.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anne do at 10 am?",
+              },
+              {
+                "lang": "uz",
+                "text": "Ertalab soat 10 da Anne nima qiladi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/b/b0/b05d18d8-3f89-4c83-a33e-c58d9e350d6a_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anne says \"Yes. At 10 a.m., I am writing.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anne \"Ha. Men ertalab 10 da yozayapman\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Anne talks about human rights.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Anne writes at 10 am.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "Anne is recording at 10 am.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Anne is running at 10 am.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna want to do?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nima qilmoqchi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/1/11/11faf605-5ff4-4653-a197-eafae05cd63e_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"May I see the studio?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Men studiyani ko'rsam bo'ladimi?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She wants to see the studio.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "She wants to record a show.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She wants to listen to music.",
+                "correct": false
+              }
+            ]
+          }
+        ]
       }
     ],
     speakingPracticeTexts: [
@@ -2169,6 +2394,45 @@ export default {
               "show - a television or radio program",
               "work - to do things as part of your job.",
               "write - to create a book, poem, story, etc. by writing words on paper or on a computer."
+            ]
+          }
+        ]
+      },
+      {
+        id: 8,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "afternoon - the middle part of the day; the part of the day between noon and evening.",
+              "apologize - to express regret for doing or saying something wrong.",
+              "before - at an earlier time.",
+              "evening - the last part of the day and early part of the night.",
+              "job - the work that a person does regularly in order to earn money.",
+              "later - happening near the end of a process, activity, series, life, etc.",
+              "light - a source of light (such as an electric lamp)",
+              "morning - the early part of the day; the time of day from sunrise until noon.",
+              "now - at the present time.",
+              "studio - the building or room where an artist works.",
+              "surprise - an unexpected event or piece of information.",
+              "yesterday - the day before today."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "afternoon - the middle part of the day; the part of the day between noon and evening.",
+              "apologize - to express regret for doing or saying something wrong.",
+              "before - at an earlier time.",
+              "evening - the last part of the day and early part of the night.",
+              "job - the work that a person does regularly in order to earn money.",
+              "later - happening near the end of a process, activity, series, life, etc.",
+              "light - a source of light (such as an electric lamp)",
+              "morning - the early part of the day; the time of day from sunrise until noon.",
+              "now - at the present time.",
+              "studio - the building or room where an artist works.",
+              "surprise - an unexpected event or piece of information.",
+              "yesterday - the day before today."
             ]
           }
         ]
@@ -3523,9 +3787,255 @@ export default {
             ]
           }
         ]
+      },
+      {
+        id: 8,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hello, everyone. Here I am at my new job! Yesterday at my first day of work … Well, let’s not talk about yesterday. Today is a new day! Today I want to apologize to my co-workers.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Anne. Are you busy?",
+              },
+              {
+                name: "Anne",
+                title: "Hi, Anna. Yes. At 10 a.m. I am writing. Every day I do my morning show. Sorry!",
+              },
+              {
+                name: "Anna",
+                title: "Okay. See you later, maybe.",
+              },
+              {
+                name: "Anne",
+                title: "Maybe I’ll see you later.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Jonathan. Are you busy?",
+              },
+              {
+                name: "Jonathan",
+                title: "Yes, I’m busy. When the studio light is on, I am recording my evening show.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Sorry about yesterday.",
+              },
+              {
+                name: "Jonathan",
+                title: "No worries.",
+              },
+              {
+                name: "Anna",
+                title: "May I see the studio?",
+              },
+              {
+                name: "Jonathan",
+                title: "Um, maybe another time? Right now I am busy.",
+              },
+              {
+                name: "Anna",
+                title: "Sure. Okay, ’bye.",
+              },
+              {
+                name: "Jonathan",
+                title: "‘Bye.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Amelia! Are you busy?",
+              },
+              {
+                name: "Amelia",
+                title: "I’m a little busy.",
+              },
+              {
+                name: "Anna",
+                title: "I want to say I’m sorry for yesterday.",
+              },
+              {
+                name: "Amelia",
+                title: "It’s okay, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Well, I am sorry.",
+              },
+              {
+                name: "Amelia",
+                title: "It’s okay, Anna. Come by this afternoon.",
+              },
+              {
+                name: "Anna",
+                title: "Okay.",
+              },
+              {
+                name: "Caty",
+                title: "Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Are you busy?",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Ms. Weaver. I am busy.",
+              },
+              {
+                name: "Caty",
+                title: "My office. 5:00 p.m.",
+              },
+              {
+                name: "Anna",
+                title: "5:00 p.m.",
+              },
+              {
+                name: "Caty",
+                title: "Come in.",
+              },
+              {
+                name: "Co-Workers",
+                title: "Surprise!",
+              },
+              {
+                name: "Anna",
+                title: "A party! Awesome! And I still have my job! Phew!* Until next time!",
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hello, everyone. Here I am at my new job! Yesterday at my first day of work … Well, let’s not talk about yesterday. Today is a new day! Today I want to apologize to my co-workers.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Anne. Are you busy?",
+              },
+              {
+                name: "Anne",
+                title: "Hi, Anna. Yes. At 10 a.m. I am writing. Every day I do my morning show. Sorry!",
+              },
+              {
+                name: "Anna",
+                title: "Okay. See you later, maybe.",
+              },
+              {
+                name: "Anne",
+                title: "Maybe I’ll see you later.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Jonathan. Are you busy?",
+              },
+              {
+                name: "Jonathan",
+                title: "Yes, I’m busy. When the studio light is on, I am recording my evening show.",
+              },
+              {
+                name: "Anna",
+                title: "Right. Sorry about yesterday.",
+              },
+              {
+                name: "Jonathan",
+                title: "No worries.",
+              },
+              {
+                name: "Anna",
+                title: "May I see the studio?",
+              },
+              {
+                name: "Jonathan",
+                title: "Um, maybe another time? Right now I am busy.",
+              },
+              {
+                name: "Anna",
+                title: "Sure. Okay, ’bye.",
+              },
+              {
+                name: "Jonathan",
+                title: "‘Bye.",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Amelia! Are you busy?",
+              },
+              {
+                name: "Amelia",
+                title: "I’m a little busy.",
+              },
+              {
+                name: "Anna",
+                title: "I want to say I’m sorry for yesterday.",
+              },
+              {
+                name: "Amelia",
+                title: "It’s okay, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Well, I am sorry.",
+              },
+              {
+                name: "Amelia",
+                title: "It’s okay, Anna. Come by this afternoon.",
+              },
+              {
+                name: "Anna",
+                title: "Okay.",
+              },
+              {
+                name: "Caty",
+                title: "Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Ms. Weaver.",
+              },
+              {
+                name: "Caty",
+                title: "Are you busy?",
+              },
+              {
+                name: "Anna",
+                title: "Yes, Ms. Weaver. I am busy.",
+              },
+              {
+                name: "Caty",
+                title: "My office. 5:00 p.m.",
+              },
+              {
+                name: "Anna",
+                title: "5:00 p.m.",
+              },
+              {
+                name: "Caty",
+                title: "Come in.",
+              },
+              {
+                name: "Co-Workers",
+                title: "Surprise!",
+              },
+              {
+                name: "Anna",
+                title: "A party! Awesome! And I still have my job! Phew!* Until next time!",
+              }
+            ]
+          }
+        ]
       }
     ],
-
   },
   getters: {
   }
