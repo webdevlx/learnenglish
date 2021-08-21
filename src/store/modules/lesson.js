@@ -2148,6 +2148,241 @@ export default {
             ]
           }
         ]
+      },
+      {
+        "id": 9,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does Anna want to know?",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna nimani bilishni xohladi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/8/8c/8c55c5b7-8dc7-4b45-944b-cc174db989c0_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna asks, \"What is today's temperature?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Bugun harorat qanday?\" deb so'radi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Anna wants to know what time it is.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Anna wants to learn about today's news.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Anna wants to know the temperature.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "Anna wants to know how to make tea.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does the phone say?",
+              },
+              {
+                "lang": "uz",
+                "text": "Telefon nima dedi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/1/12/12d0f239-8e90-4d9d-baff-0229fc2f49cc_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "The phone says \"Yes, Anna, it is warm.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Telefon \"Ha, Anna, havo iliq\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "\"Yes, Anna, it is a farm.\"",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "\"Yes, Anna, it is warm.\"",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "\"Yes, Anna, I have no charm.\"",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "\"Yes, Anna, I have no charm.\"",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What is the weather like today?",
+              },
+              {
+                "lang": "uz",
+                "text": "Bugun ob-havo qanday?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/c/cf/cf4dd4c4-a6c5-46f5-88c7-a913e1ed542e_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "The phone says \"No, it is not windy today.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Telefon \"Yo'q, bugun shamolli emas.\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "It is windy today.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "It is just like Wednesday.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "It is just like Wednesday.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "It is warm today.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What does she ask?",
+              },
+              {
+                "lang": "uz",
+                "text": "U nima so'radi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/5/58/582d3899-28b3-407e-ab76-255215cdbdb3_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"Is it sunny today?\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Bugun havo issiqmi?\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She asks if it is sunny.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "She asks if it is windy.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "She asks if it is snowy.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She asks if it is rainy.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What do you learn about the weather in Washington, DC?",
+              },
+              {
+                "lang": "uz",
+                "text": "Vashingtondagi ob-havo haqida nimani bilib oldingiz?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/03/a/a3/a3f4f335-6dcd-4946-9b65-08cc46aeac4c_hq.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Anna says \"It is cold and windy and snowy.\"",
+              },
+              {
+                "lang": "uz",
+                "text": "Anna \"Sovuq, shamolli va qorli\" dedi."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "It is warm today.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "It is sunny today.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "It is rainy.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "It is cold today.",
+                "correct": true
+              }
+            ]
+          }
+        ]
       }
     ],
     speakingPracticeTexts: [
@@ -2433,6 +2668,49 @@ export default {
               "studio - the building or room where an artist works.",
               "surprise - an unexpected event or piece of information.",
               "yesterday - the day before today."
+            ]
+          }
+        ]
+      },
+      {
+        id: 9,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "celsius - relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees.",
+              "change - to become different.",
+              "check - to get information by looking at something, asking about something, etc.",
+              "cold - having a very low temperature.",
+              "degree - a unit for measuring temperature.",
+              "fahrenheit - relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero.",
+              "forecast - a statement about what you think is going to happen in the future.",
+              "phone - a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else.",
+              "snowy - having falling snow or covered with snow.",
+              "sunny - having plenty of bright sunlight.",
+              "temperature - a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)",
+              "warm - somewhat hot; not cool or cold.",
+              "weather - the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place.",
+              "windy - having a lot of wind"
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "celsius - relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees.",
+              "change - to become different.",
+              "check - to get information by looking at something, asking about something, etc.",
+              "cold - having a very low temperature.",
+              "degree - a unit for measuring temperature.",
+              "fahrenheit - relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero.",
+              "forecast - a statement about what you think is going to happen in the future.",
+              "phone - a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else.",
+              "snowy - having falling snow or covered with snow.",
+              "sunny - having plenty of bright sunlight.",
+              "temperature - a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)",
+              "warm - somewhat hot; not cool or cold.",
+              "weather - the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place.",
+              "windy - having a lot of wind"
             ]
           }
         ]
@@ -4030,6 +4308,205 @@ export default {
               {
                 name: "Anna",
                 title: "A party! Awesome! And I still have my job! Phew!* Until next time!",
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 9,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Oh, hi, everyone! Here in Washington, DC, the weather changes often. One day is cold and windy. But the next day is warm and sunny! So, every day I check the forecast. Hello, Phone? What is today’s temperature?",
+              },
+              {
+                name: "Phone",
+                title: "Today it is 18 degrees ...",
+              },
+              {
+                name: "Anna",
+                title: "Eighteen degrees! That is cold!",
+              },
+              {
+                name: "Phone",
+                title: "... eighteen degrees Celsius.",
+              },
+              {
+                name: "Anna",
+                title: "Oh, Celsius. That is 65 degrees Fahrenheit. That’s warm.",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. It is warm.",
+              },
+              {
+                name: "Anna",
+                title: "Excuse me, Phone. Is it windy today?",
+              },
+              {
+                name: "Phone",
+                title: "No, it is not windy today.",
+              },
+              {
+                name: "Anna",
+                title: "Is it sunny today?",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. It is sunny.",
+              },
+              {
+                name: "Anna",
+                title: "Excuse me, Phone?",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Is it snowy today?",
+              },
+              {
+                name: "Phone",
+                title: "No, Anna. It is not snowy.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you, Phone!",
+              },
+              {
+                name: "Anna",
+                title: "Today the weather is warm and sunny -- great for seeing Washington, D.C.",
+              },
+              {
+                name: "Anna",
+                title: "Phone! It is not warm and sunny! It is cold and windy and snowy!",
+              },
+              {
+                name: "Phone",
+                title: "Anna, it is not cold, windy, or snowy. It is warm and sunny … in Mexico City, Mexico.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. I see. Mexico.",
+              },
+              {
+                name: "Anna",
+                title: "Washington weather changes often. Remember to check the forecast -- the right forecast.",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. Next time remember to check the right fore...",
+              },
+              {
+                name: "Anna",
+                title: "Okay, thank you Phone. Goodbye, Phone.",
+              },
+              {
+                name: "Anna",
+                title: "Until next time!",
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Oh, hi, everyone! Here in Washington, DC, the weather changes often. One day is cold and windy. But the next day is warm and sunny! So, every day I check the forecast. Hello, Phone? What is today’s temperature?",
+              },
+              {
+                name: "Phone",
+                title: "Today it is 18 degrees ...",
+              },
+              {
+                name: "Anna",
+                title: "Eighteen degrees! That is cold!",
+              },
+              {
+                name: "Phone",
+                title: "... eighteen degrees Celsius.",
+              },
+              {
+                name: "Anna",
+                title: "Oh, Celsius. That is 65 degrees Fahrenheit. That’s warm.",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. It is warm.",
+              },
+              {
+                name: "Anna",
+                title: "Excuse me, Phone. Is it windy today?",
+              },
+              {
+                name: "Phone",
+                title: "No, it is not windy today.",
+              },
+              {
+                name: "Anna",
+                title: "Is it sunny today?",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. It is sunny.",
+              },
+              {
+                name: "Anna",
+                title: "Excuse me, Phone?",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna.",
+              },
+              {
+                name: "Anna",
+                title: "Is it snowy today?",
+              },
+              {
+                name: "Phone",
+                title: "No, Anna. It is not snowy.",
+              },
+              {
+                name: "Anna",
+                title: "Thank you, Phone!",
+              },
+              {
+                name: "Anna",
+                title: "Today the weather is warm and sunny -- great for seeing Washington, D.C.",
+              },
+              {
+                name: "Anna",
+                title: "Phone! It is not warm and sunny! It is cold and windy and snowy!",
+              },
+              {
+                name: "Phone",
+                title: "Anna, it is not cold, windy, or snowy. It is warm and sunny … in Mexico City, Mexico.",
+              },
+              {
+                name: "Anna",
+                title: "Oh. I see. Mexico.",
+              },
+              {
+                name: "Anna",
+                title: "Washington weather changes often. Remember to check the forecast -- the right forecast.",
+              },
+              {
+                name: "Phone",
+                title: "Yes, Anna. Next time remember to check the right fore...",
+              },
+              {
+                name: "Anna",
+                title: "Okay, thank you Phone. Goodbye, Phone.",
+              },
+              {
+                name: "Anna",
+                title: "Until next time!",
               }
             ]
           }
