@@ -125,6 +125,20 @@
       "conversationText": [],
       "questions": [],
       "speakingPracticeText": []
+    },
+    {
+      "id": 10,
+      "title": "Come Over to My Place",
+      "src": {
+        "mainVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/06/3/3e/3ec2bbef-f064-4545-bbdd-74f2a695e141_fullhd.mp4",
+        "resoursePDF": "https://docs.voanews.eu/en-US-LEARN/2019/11/26/8a123cdf-1e26-4438-a288-7b7bedef7ed1.pdf",
+        "speakingPracticeVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/b/b3/b3dda7df-5d77-4a70-a37d-00696132636e_fullhd.mp4",
+        "pronunciationVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/9/92/92b79e01-521c-42d4-94f3-32673402eb1b_fullhd.mp4",
+        "conversationAudio": "https://av.voanews.com/clips/VLE/2016/04/14/442a6a50-693e-411f-8cff-99e40d16614c_hq.mp3"
+      },
+      "conversationText": [],
+      "questions": [],
+      "speakingPracticeText": []
     }
   ]
 }

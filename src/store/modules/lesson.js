@@ -2383,6 +2383,287 @@ export default {
             ]
           }
         ]
+      },
+      {
+        "id": 10,
+        "questions": [
+          {
+            "id": 1,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "What do you do after you exit the metro?",
+              },
+              {
+                "lang": "uz",
+                "text": "Metrodan chiqqandan keyin nima qilasiz?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/0/0b/0bf4f2fe-d1f5-4306-af99-c680613442c6_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Exit the Metro and turn right.",
+              },
+              {
+                "lang": "uz",
+                "text": "Metrodan chiqib, o'ngga buriling."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Turn right after you exit.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "Turn at the light.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Turn and exit.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Turn into the bus station.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where do you turn?",
+              },
+              {
+                "lang": "uz",
+                "text": "Qayerga burilasiz?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/2/2b/2bf1b964-917a-4e66-911e-97657866db4e_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Turn left at the light.",
+              },
+              {
+                "lang": "uz",
+                "text": "Chiroq yonganida chapga buriling."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Turn off the light.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Make a right turn.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Turn left at the light.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "After the right.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where do you turn after the bus station?",
+              },
+              {
+                "lang": "uz",
+                "text": "Avtobus stansiyasidan keyin qayerga burilasiz?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/3/30/30c7d2ed-2a89-4359-b287-ba94cca6e657_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Exit the bus station and turn right.",
+              },
+              {
+                "lang": "uz",
+                "text": "Avtobus stansiyasidan chiqib, o'ngga buriling."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Exit the bus station and turn right.",
+                "correct": true
+              },
+              {
+                "id": 2,
+                "title": "When you go into the bus station.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Pass the bus station and turn left.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "Before you get to the bus station.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Then where do you go?",
+              },
+              {
+                "lang": "uz",
+                "text": "Keyin qayerga borasiz?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/3/34/34154bd6-ee9c-42f9-9e25-49d83d57378c_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Then walk to the coffee shop.",
+              },
+              {
+                "lang": "uz",
+                "text": "Keyin qahva do'koniga boring."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "Then you exit the coffee shop.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Stay out of the coffee shop.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "Then you go to the copy shop.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "You walk to the coffee shop.",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Where is Anna's apartment?",
+              },
+              {
+                "lang": "uz",
+                "text": "Annaning kvartirasi qayerda?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/6/6e/6e59ae37-117e-4fc2-a4be-d36670d7e8b7_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "It is across from the department store.",
+              },
+              {
+                "lang": "uz",
+                "text": "U universal do'konning qarshisida."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "It is next to the department store",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "It is on the corner by the department store.",
+                "correct": false
+              },
+              {
+                "id": 3,
+                "title": "It is across from the department store.",
+                "correct": true
+              },
+              {
+                "id": 4,
+                "title": "It is above the department store.",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "titleText": [
+              {
+                "lang": "en",
+                "text": "Why does Ashley ask about the coffee shops?",
+              },
+              {
+                "lang": "uz",
+                "text": "Nega Eshli qahva do'konlari haqida so'radi?"
+              }
+            ],
+            "questionVideo": "https://av.voanews.com/Videoroot/Pangeavideo/2016/04/3/36/36d6a39d-e03e-4bf8-879b-e0c3508b53d4_fullhd.mp4",
+            "questionVideoText": [
+              {
+                "lang": "en",
+                "text": "Which coffee shop? There are three coffee shops.",
+              },
+              {
+                "lang": "uz",
+                "text": "Qaysi qahva do'koni? Uchta qahva do'koni bor."
+              }
+            ],
+            "answers": [
+              {
+                "id": 1,
+                "title": "She does not see a coffee shop.",
+                "correct": false
+              },
+              {
+                "id": 2,
+                "title": "Ashley sees three coffee shops.",
+                "correct": true
+              },
+              {
+                "id": 3,
+                "title": "There are no coffee shops on the street.",
+                "correct": false
+              },
+              {
+                "id": 4,
+                "title": "She will meet Anna in the coffee shop.",
+                "correct": false
+              }
+            ]
+          },
+        ]
       }
     ],
     speakingPracticeTexts: [
@@ -2711,6 +2992,47 @@ export default {
               "warm - somewhat hot; not cool or cold.",
               "weather - the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place.",
               "windy - having a lot of wind"
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        speakingPracticeText: [
+          {
+            lang: "en",
+            speakingPractice: [
+              "ahead - to or toward the place where someone is going.",
+              "bus - a large vehicle that is used for carrying passengers especially along a particular route at particular times.",
+              "coffee shop - a small restaurant that serves coffee and other drinks as well as simple foods.",
+              "department store - a large store that has separated areas in which different kinds of products are sold.",
+              "exit - to go out of a place.",
+              "left - located on the same side of your body as your heart.",
+              "metro - an underground railway system in some cities (also called subway).",
+              "right - located on the side of your body that is away from your heart.",
+              "station - place where buses, trains, etc., regularly stop so that passengers can get on and off.",
+              "straight - in a straight or direct way.",
+              "then - used to indicate what happened or happens next.",
+              "turn - to cause your body or a part of your body to face a different direction.",
+              "walk - to move with your legs at a speed that is slower than running."
+            ]
+          },
+          {
+            lang: "uz",
+            speakingPractice: [
+              "ahead - to or toward the place where someone is going.",
+              "bus - a large vehicle that is used for carrying passengers especially along a particular route at particular times.",
+              "coffee shop - a small restaurant that serves coffee and other drinks as well as simple foods.",
+              "department store - a large store that has separated areas in which different kinds of products are sold.",
+              "exit - to go out of a place.",
+              "left - located on the same side of your body as your heart.",
+              "metro - an underground railway system in some cities (also called subway).",
+              "right - located on the side of your body that is away from your heart.",
+              "station - place where buses, trains, etc., regularly stop so that passengers can get on and off.",
+              "straight - in a straight or direct way.",
+              "then - used to indicate what happened or happens next.",
+              "turn - to cause your body or a part of your body to face a different direction.",
+              "walk - to move with your legs at a speed that is slower than running."
             ]
           }
         ]
@@ -4507,6 +4829,165 @@ export default {
               {
                 name: "Anna",
                 title: "Until next time!",
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 10,
+        conversationText: [
+          {
+            lang: 'en',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hi! Today, my friend Ashley, is coming over. I am showing her my new apartment! Oh! That’s Ashley calling.",
+              },
+              {
+                name: "Anna",
+                title: "Hi Ashley!",
+              },
+              {
+                name: "Ashley",
+                title: "Hi Anna! I’m coming to your apartment. Where is your apartment?",
+              },
+              {
+                name: "Anna",
+                title: "My apartment is near the Columbia Heights Metro.",
+              },
+              {
+                name: "Ashley",
+                title: "It is near the Columbia Heights Metro?",
+              },
+              {
+                name: "Anna",
+                title: "Yes. Exit the Metro and turn right. Then at the bus station turn left. Then walk straight ahead.",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. Exit Metro, turn right, turn left, then go straight ahead?",
+              },
+              {
+                name: "Anna",
+                title: "Yes. My apartment is near a coffee shop.",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. See you soon!",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Ashley.",
+              },
+              {
+                name: "Ashley",
+                title: "Anna, Which coffee shop? There are three coffee shops.",
+              },
+              {
+                name: "Anna",
+                title: "Okay, my apartment is across from a big department store.",
+              },
+              {
+                name: "Ashley",
+                title: "A big department store? Ah, I see it!",
+              },
+              {
+                name: "Anna",
+                title: "Okay! Bye, Ashley. See you soon!",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. See you soon.",
+              },
+              {
+                name: "Anna",
+                title: "Ashley! Ashley! Ashley! Over here! It’s Anna! It’s Anna! Hi!",
+              },
+              {
+                name: "Anna",
+                title: "I love having my friends over. Come on!",
+              },
+              {
+                name: "Ashley",
+                title: "Great!",
+              }
+            ]
+          },
+          {
+            lang: 'uz',
+            conversation: [
+              {
+                name: "Anna",
+                title: "Hi! Today, my friend Ashley, is coming over. I am showing her my new apartment! Oh! That’s Ashley calling.",
+              },
+              {
+                name: "Anna",
+                title: "Hi Ashley!",
+              },
+              {
+                name: "Ashley",
+                title: "Hi Anna! I’m coming to your apartment. Where is your apartment?",
+              },
+              {
+                name: "Anna",
+                title: "My apartment is near the Columbia Heights Metro.",
+              },
+              {
+                name: "Ashley",
+                title: "It is near the Columbia Heights Metro?",
+              },
+              {
+                name: "Anna",
+                title: "Yes. Exit the Metro and turn right. Then at the bus station turn left. Then walk straight ahead.",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. Exit Metro, turn right, turn left, then go straight ahead?",
+              },
+              {
+                name: "Anna",
+                title: "Yes. My apartment is near a coffee shop.",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. See you soon!",
+              },
+              {
+                name: "Anna",
+                title: "Hi, Ashley.",
+              },
+              {
+                name: "Ashley",
+                title: "Anna, Which coffee shop? There are three coffee shops.",
+              },
+              {
+                name: "Anna",
+                title: "Okay, my apartment is across from a big department store.",
+              },
+              {
+                name: "Ashley",
+                title: "A big department store? Ah, I see it!",
+              },
+              {
+                name: "Anna",
+                title: "Okay! Bye, Ashley. See you soon!",
+              },
+              {
+                name: "Ashley",
+                title: "Okay. See you soon.",
+              },
+              {
+                name: "Anna",
+                title: "Ashley! Ashley! Ashley! Over here! It’s Anna! It’s Anna! Hi!",
+              },
+              {
+                name: "Anna",
+                title: "I love having my friends over. Come on!",
+              },
+              {
+                name: "Ashley",
+                title: "Great!",
               }
             ]
           }
