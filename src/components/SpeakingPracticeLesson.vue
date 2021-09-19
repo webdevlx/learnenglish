@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="12">
+    <v-col cols="12" class="my-3" style="box-shadow: 4px 4px 10px rgba(0,0,0,0.2)">
       <h2>Speaking Practice</h2>
     </v-col>
 
@@ -21,14 +21,18 @@
         style="cursor: pointer"
         @click="translateText(index)"
       >
-        {{ text }}
+        {{ text.word }} - {{ text.definition }}
       </v-alert>
     </v-col>
+
+    <check-speaking-practice-words :speakingPractice="texts[0].speakingPractice" />
   </v-row>
 </template>
 
 <script>
+import CheckSpeakingPracticeWords from './CheckSpeakingPracticeWords.vue';
 export default {
+  components: { CheckSpeakingPracticeWords },
   name: "SpeakingPracticeLesson",
   props: {
     src: {
@@ -42,12 +46,12 @@ export default {
   },
   methods: {
     translateText(index) {
-      let text = this.texts[1].speakingPractice[index];
+      let text = this.texts[1].speakingPractice[index].word + ' - ' + this.texts[1].speakingPractice[index].definition;
       this.$emit("translate-text", text);
     },
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>

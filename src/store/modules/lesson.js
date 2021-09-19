@@ -2673,25 +2673,67 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "apartment - a rented room or set of rooms.",
-              "meet - to see and speak to someone for the first time.",
-              "new - not known before recently bought or rented.",
-              "nice - good and enjoyable.",
-              "street - a road in a city, town or village.",
-              "try - to make an effort to do something.",
-              "welcome - used as a friendly greeting to someone who arrives at a place."
+              {
+                word: "apartment",
+                definition: "a rented room or set of rooms."
+              },
+              {
+                word: "meet",
+                definition: "to see and speak to someone for the first time."
+              },
+              {
+                word: "new",
+                definition: "not known before recently bought or rented."
+              },
+              {
+                word: "nice",
+                definition: "good and enjoyable."
+              },
+              {
+                word: "street",
+                definition: "a road in a city, town or village."
+              },
+              {
+                word: "try",
+                definition: "to make an effort to do something."
+              },
+              {
+                word: "welcome",
+                definition: "used as a friendly greeting to someone who arrives at a place."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "kvartira - ijaraga olingan xona yoki xonalar to'plami.",
-              "uchrashish - kimnidir birinchi marta ko'rish va gaplashish.",
-              "yangi - yaqinda sotib olingan yoki ijaraga olinishidan oldin noma'lum bo'lgan narsa.",
-              "ajoyib - yaxshi va yoqimli.",
-              "ko'cha - shahar, shaharcha yoki qishloqdagi yo'l.",
-              "urinish - biror narsa qilishga harakat qilish.",
-              "xush kelibsiz - biror joyga kelgan kishiga do'stona salom sifatida ishlatiladi."
+              {
+                word: "kvartira",
+                definition: "ijaraga olingan xona yoki xonalar to'plami."
+              },
+              {
+                word: "uchrashish",
+                definition: "kimnidir birinchi marta ko'rish va gaplashish."
+              },
+              {
+                word: "yangi",
+                definition: "yaqinda sotib olingan yoki ijaraga olinishidan oldin noma'lum bo'lgan narsa."
+              },
+              {
+                word: "ajoyib",
+                definition: "yaxshi va yoqimli."
+              },
+              {
+                word: "ko'cha",
+                definition: "shahar, shaharcha yoki qishloqdagi yo'l."
+              },
+              {
+                word: "urinish",
+                definition: "biror narsa qilishga harakat qilish."
+              },
+              {
+                word: "xush kelibsiz",
+                definition: "biror joyga kelgan kishiga do'stona salom sifatida ishlatiladi."
+              }
             ]
           }
         ]
@@ -2702,21 +2744,51 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "know - to have met and talked to (someone).",
-              "number - a number or a set of numbers and other symbols that is used to identify a person or thing.",
-              "remember - to have or keep an image or idea in your mind of something or someone from the past.",
-              "roommate - a person who shares a room, apartment, or house with someone else.",
-              "work - the place where you do your job."
+              {
+                word: "know",
+                definition: "to have met and talked to (someone)."
+              },
+              {
+                word: "number",
+                definition: "a number or a set of numbers and other symbols that is used to identify a person or thing."
+              },
+              {
+                word: "remember",
+                definition: "to have or keep an image or idea in your mind of something or someone from the past."
+              },
+              {
+                word: "roommate",
+                definition: "a person who shares a room, apartment, or house with someone else."
+              },
+              {
+                word: "work",
+                definition: "the place where you do your job."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "bilmoq - uchrashish va gaplashish (kimdir) bilan.",
-              "raqam - raqam yoki raqamlar to'plami va boshqa belgilar, bu shaxsni yoki narsani aniqlash uchun ishlatiladi.",
-              "eslamoq - o'tmishdagi biror narsa yoki kimnidur xotirangizda fikr yoki tasavvur qilib saqlamoq.",
-              "xonadosh - xonani, kvartirani yoki uyni boshqa birov bilan bo'lishadigan odam.",
-              "ish - siz o'z ishingizni bajaradigan joy."
+              {
+                word: "bilmoq",
+                definition: "uchrashish va gaplashish (kimdir) bilan."
+              },
+              {
+                word: "raqam",
+                definition: "raqam yoki raqamlar to'plami va boshqa belgilar, bu shaxsni yoki narsani aniqlash uchun ishlatiladi."
+              },
+              {
+                word: "eslamoq",
+                definition: "o'tmishdagi biror narsa yoki kimnidur xotirangizda fikr yoki tasavvur qilib saqlamoq."
+              },
+              {
+                word: "xonadosh",
+                definition: "xonani, kvartirani yoki uyni boshqa birov bilan bo'lishadigan odam."
+              },
+              {
+                word: "ish",
+                definition: "siz o'z ishingizni bajaradigan joy."
+              },
             ]
           }
         ]
@@ -2727,35 +2799,107 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "cook - to prepare (food) for eating especially by using heat.",
-              "dinner - the main meal of the day.",
-              "excuse - to forgive someone for making a mistake or doing something wrong.",
-              "find - to get or discover something or someone that you are looking for.",
-              "here - in this place or at this location.",
-              "live - to have a home in a specified place.",
-              "near - close to something or someone.",
-              "sorry - feeling sorrow or regret.",
-              "supermarket - a store where customers can buy a variety of foods and household items.",
-              "there - in that place or at that location.",
-              "want - to desire or wish for something.",
-              "wrong - not suitable or appropriate for a particular purpose, situation, or person."
+              {
+                word: "cook",
+                definition: "to prepare (food) for eating especially by using heat.",
+              },
+              {
+                word: "dinner",
+                definition: "the main meal of the day.",
+              },
+              {
+                word: "excuse",
+                definition: "to forgive someone for making a mistake or doing something wrong.",
+              },
+              {
+                word: "find",
+                definition: "to get or discover something or someone that you are looking for.",
+              },
+              {
+                word: "here",
+                definition: "in this place or at this location.",
+              },
+              {
+                word: "live",
+                definition: "to have a home in a specified place.",
+              },
+              {
+                word: "near",
+                definition: "close to something or someone.",
+              },
+              {
+                word: "sorry",
+                definition: "feeling sorrow or regret.",
+              },
+              {
+                word: "supermarket",
+                definition: "a store where customers can buy a variety of foods and household items.",
+              },
+              {
+                word: "there",
+                definition: "in that place or at that location.",
+              },
+              {
+                word: "want",
+                definition: "to desire or wish for something.",
+              },
+              {
+                word: "wrong",
+                definition: "not suitable or appropriate for a particular purpose, situation, or person."
+              },
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "cook - to prepare (food) for eating especially by using heat.",
-              "dinner - the main meal of the day.",
-              "excuse - to forgive someone for making a mistake or doing something wrong.",
-              "find - to get or discover something or someone that you are looking for.",
-              "here - in this place or at this location.",
-              "live - to have a home in a specified place.",
-              "near - close to something or someone.",
-              "sorry - feeling sorrow or regret.",
-              "supermarket - a store where customers can buy a variety of foods and household items.",
-              "there - in that place or at that location.",
-              "want - to desire or wish for something.",
-              "wrong - not suitable or appropriate for a particular purpose, situation, or person."
+              {
+                word: "cook",
+                definition: "to prepare (food) for eating especially by using heat.",
+              },
+              {
+                word: "dinner",
+                definition: "the main meal of the day.",
+              },
+              {
+                word: "excuse",
+                definition: "to forgive someone for making a mistake or doing something wrong.",
+              },
+              {
+                word: "find",
+                definition: "to get or discover something or someone that you are looking for.",
+              },
+              {
+                word: "here",
+                definition: "in this place or at this location.",
+              },
+              {
+                word: "live",
+                definition: "to have a home in a specified place.",
+              },
+              {
+                word: "near",
+                definition: "close to something or someone.",
+              },
+              {
+                word: "sorry",
+                definition: "feeling sorrow or regret.",
+              },
+              {
+                word: "supermarket",
+                definition: "a store where customers can buy a variety of foods and household items.",
+              },
+              {
+                word: "there",
+                definition: "in that place or at that location.",
+              },
+              {
+                word: "want",
+                definition: "to desire or wish for something.",
+              },
+              {
+                word: "wrong",
+                definition: "not suitable or appropriate for a particular purpose, situation, or person."
+              }
             ]
           }
         ]
@@ -2766,35 +2910,107 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "bag - a soft container used to hold money and other small things.",
-              "big - large in size.",
-              "book - a set of printed sheets of paper that are held together inside a cover or a long written work.",
-              "coffee - a dark brown drink made from ground coffee beans and boiled water.",
-              "lamp - a device that produces light.",
-              "little - small in size.",
-              "map - a picture or chart that shows the rivers, mountains, streets, etc. in a particular area.",
-              "not - makes a word or phrase negative or gives an opposite meaning.",
-              "pen - a writing instrument in uses ink",
-              "pillow - a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down.",
-              "toy - something a child plays with.",
-              "world - the earth and all the people and things on it."
+              {
+                word: "bag",
+                definition: "a soft container used to hold money and other small things."
+              },
+              {
+                word: "big",
+                definition: "large in size."
+              },
+              {
+                word: "book",
+                definition: "a set of printed sheets of paper that are held together inside a cover or a long written work."
+              },
+              {
+                word: "coffee",
+                definition: "a dark brown drink made from ground coffee beans and boiled water."
+              },
+              {
+                word: "lamp",
+                definition: "a device that produces light."
+              },
+              {
+                word: "little",
+                definition: "small in size."
+              },
+              {
+                word: "map",
+                definition: "a picture or chart that shows the rivers, mountains, streets, etc. in a particular area."
+              },
+              {
+                word: "not",
+                definition: "makes a word or phrase negative or gives an opposite meaning."
+              },
+              {
+                word: "pen",
+                definition: "a writing instrument in uses ink"
+              },
+              {
+                word: "pillow",
+                definition: "a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down."
+              },
+              {
+                word: "toy",
+                definition: "something a child plays with."
+              },
+              {
+                word: "world",
+                definition: "the earth and all the people and things on it."
+              },
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "bag - a soft container used to hold money and other small things.",
-              "big - large in size.",
-              "book - a set of printed sheets of paper that are held together inside a cover or a long written work.",
-              "coffee - a dark brown drink made from ground coffee beans and boiled water.",
-              "lamp - a device that produces light.",
-              "little - small in size.",
-              "map - a picture or chart that shows the rivers, mountains, streets, etc. in a particular area.",
-              "not - makes a word or phrase negative or gives an opposite meaning.",
-              "pen - a writing instrument in uses ink",
-              "pillow - a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down.",
-              "toy - something a child plays with.",
-              "world - the earth and all the people and things on it."
+              {
+                word: "bag",
+                definition: "a soft container used to hold money and other small things."
+              },
+              {
+                word: "big",
+                definition: "large in size."
+              },
+              {
+                word: "book",
+                definition: "a set of printed sheets of paper that are held together inside a cover or a long written work."
+              },
+              {
+                word: "coffee",
+                definition: "a dark brown drink made from ground coffee beans and boiled water."
+              },
+              {
+                word: "lamp",
+                definition: "a device that produces light."
+              },
+              {
+                word: "little",
+                definition: "small in size."
+              },
+              {
+                word: "map",
+                definition: "a picture or chart that shows the rivers, mountains, streets, etc. in a particular area."
+              },
+              {
+                word: "not",
+                definition: "makes a word or phrase negative or gives an opposite meaning."
+              },
+              {
+                word: "pen",
+                definition: "a writing instrument in uses ink"
+              },
+              {
+                word: "pillow",
+                definition: "a bag filled with soft material that is used as a cushion usually for the head of a person who is lying down."
+              },
+              {
+                word: "toy",
+                definition: "something a child plays with."
+              },
+              {
+                word: "world",
+                definition: "the earth and all the people and things on it."
+              },
             ]
           }
         ]
@@ -2805,33 +3021,99 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "bathroom - a room with a sink and toilet and usually a bathtub or shower.",
-              "beautiful - very good and pleasing; having beauty.",
-              "bedroom - a room used for sleeping.",
-              "eat - to take food into your mouth and swallow it.",
-              "house - a building in which a family lives.",
-              "kitchen - a room in which food is cooked.",
-              "living room - a room in a house for general family use.",
-              "relax - to spend time resting and doing something enjoyable.",
-              "sleep - to rest your mind and body by closing your eyes.",
-              "upstairs - on or to a higher floor of a building.",
-              "wash - to clean something with water and usually soap."
+              {
+                word: "bathroom",
+                definition: "a room with a sink and toilet and usually a bathtub or shower."
+              },
+              {
+                word: "beautiful",
+                definition: "very good and pleasing; having beauty."
+              },
+              {
+                word: "bedroom",
+                definition: "a room used for sleeping."
+              },
+              {
+                word: "eat",
+                definition: "to take food into your mouth and swallow it."
+              },
+              {
+                word: "house",
+                definition: "a building in which a family lives."
+              },
+              {
+                word: "kitchen",
+                definition: "a room in which food is cooked."
+              },
+              {
+                word: "livingroom",
+                definition: "a room in a house for general family use."
+              },
+              {
+                word: "relax",
+                definition: "to spend time resting and doing something enjoyable."
+              },
+              {
+                word: "sleep",
+                definition: "to rest your mind and body by closing your eyes."
+              },
+              {
+                word: "upstairs",
+                definition: "on or to a higher floor of a building."
+              },
+              {
+                word: "wash",
+                definition: "to clean something with water and usually soap."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "bathroom - a room with a sink and toilet and usually a bathtub or shower.",
-              "beautiful - very good and pleasing; having beauty.",
-              "bedroom - a room used for sleeping.",
-              "eat - to take food into your mouth and swallow it.",
-              "house - a building in which a family lives.",
-              "kitchen - a room in which food is cooked.",
-              "living room - a room in a house for general family use.",
-              "relax - to spend time resting and doing something enjoyable.",
-              "sleep - to rest your mind and body by closing your eyes.",
-              "upstairs - on or to a higher floor of a building.",
-              "wash - to clean something with water and usually soap."
+              {
+                word: "bathroom",
+                definition: "a room with a sink and toilet and usually a bathtub or shower."
+              },
+              {
+                word: "beautiful",
+                definition: "very good and pleasing; having beauty."
+              },
+              {
+                word: "bedroom",
+                definition: "a room used for sleeping."
+              },
+              {
+                word: "eat",
+                definition: "to take food into your mouth and swallow it."
+              },
+              {
+                word: "house",
+                definition: "a building in which a family lives."
+              },
+              {
+                word: "kitchen",
+                definition: "a room in which food is cooked."
+              },
+              {
+                word: "livingroom",
+                definition: "a room in a house for general family use."
+              },
+              {
+                word: "relax",
+                definition: "to spend time resting and doing something enjoyable."
+              },
+              {
+                word: "sleep",
+                definition: "to rest your mind and body by closing your eyes."
+              },
+              {
+                word: "upstairs",
+                definition: "on or to a higher floor of a building."
+              },
+              {
+                word: "wash",
+                definition: "to clean something with water and usually soap."
+              }
             ]
           }
         ]
@@ -2842,35 +3124,107 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "across from - on the opposite side from someone or something.",
-              "behind - in or to a place at the back of or to the rear of someone or something.",
-              "elevator - a machine used for carrying people or things to different level in a building.",
-              "every - used to describe how often some repeated activity or event happens or is done.",
-              "gym - a room or building that has equipment for sports activities or exercise.",
-              "lobby - a large open area inside and near the entrance of a public building (such us a hotel or theater).",
-              "lounge - a room with comfortable furniture for relaxing.",
-              "mailroom - a room in which mail is processed and sorted.",
-              "next to - at the side of someone or something.",
-              "parking garage - a building in which people usually pay to park their cars, truck, etc.",
-              "rooftop - the cover or top of a building or vehicle.",
-              "work out - to perform athletic exercises in order to improve your health or physical fitness."
+              {
+                word: "across from", 
+                definition: "on the opposite side from someone or something.",
+              },
+              {
+                word: "behind", 
+                definition: "in or to a place at the back of or to the rear of someone or something.",
+              },
+              {
+                word: "elevator", 
+                definition: "a machine used for carrying people or things to different level in a building.",
+              },
+              {
+                word: "every", 
+                definition: "used to describe how often some repeated activity or event happens or is done.",
+              },
+              {
+                word: "gym", 
+                definition: "a room or building that has equipment for sports activities or exercise.",
+              },
+              {
+                word: "lobby", 
+                definition: "a large open area inside and near the entrance of a public building (such us a hotel or theater).",
+              },
+              {
+                word: "lounge", 
+                definition: "a room with comfortable furniture for relaxing.",
+              },
+              {
+                word: "mailroom", 
+                definition: "a room in which mail is processed and sorted.",
+              },
+              {
+                word: "next to", 
+                definition: "at the side of someone or something.",
+              },
+              {
+                word: "parking garage", 
+                definition: "a building in which people usually pay to park their cars, truck, etc.",
+              },
+              {
+                word: "rooftop", 
+                definition: "the cover or top of a building or vehicle.",
+              },
+              {
+                word: "work out", 
+                definition: "to perform athletic exercises in order to improve your health or physical fitness."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "across from - on the opposite side from someone or something.",
-              "behind - in or to a place at the back of or to the rear of someone or something.",
-              "elevator - a machine used for carrying people or things to different level in a building.",
-              "every - used to describe how often some repeated activity or event happens or is done.",
-              "gym - a room or building that has equipment for sports activities or exercise.",
-              "lobby - a large open area inside and near the entrance of a public building (such us a hotel or theater).",
-              "lounge - a room with comfortable furniture for relaxing.",
-              "mailroom - a room in which mail is processed and sorted.",
-              "next to - at the side of someone or something.",
-              "parking garage - a building in which people usually pay to park their cars, truck, etc.",
-              "rooftop - the cover or top of a building or vehicle.",
-              "work out - to perform athletic exercises in order to improve your health or physical fitness."
+              {
+                word: "across from", 
+                definition: "on the opposite side from someone or something.",
+              },
+              {
+                word: "behind", 
+                definition: "in or to a place at the back of or to the rear of someone or something.",
+              },
+              {
+                word: "elevator", 
+                definition: "a machine used for carrying people or things to different level in a building.",
+              },
+              {
+                word: "every", 
+                definition: "used to describe how often some repeated activity or event happens or is done.",
+              },
+              {
+                word: "gym", 
+                definition: "a room or building that has equipment for sports activities or exercise.",
+              },
+              {
+                word: "lobby", 
+                definition: "a large open area inside and near the entrance of a public building (such us a hotel or theater).",
+              },
+              {
+                word: "lounge", 
+                definition: "a room with comfortable furniture for relaxing.",
+              },
+              {
+                word: "mailroom", 
+                definition: "a room in which mail is processed and sorted.",
+              },
+              {
+                word: "next to", 
+                definition: "at the side of someone or something.",
+              },
+              {
+                word: "parking garage", 
+                definition: "a building in which people usually pay to park their cars, truck, etc.",
+              },
+              {
+                word: "rooftop", 
+                definition: "the cover or top of a building or vehicle.",
+              },
+              {
+                word: "work out", 
+                definition: "to perform athletic exercises in order to improve your health or physical fitness."
+              }
             ]
           }
         ]
@@ -2881,35 +3235,107 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "both - the person whose job is to tell other workers what to do.",
-              "bother - to annoy someone or to cause someone to feel annoyed.",
-              "busy - actively doing something.",
-              "excited - very enthusiastic and eager about something.",
-              "nervous - having or showing feelings of being worried and afraid about what might happen.",
-              "news - information that is reported in a newspaper, magazine, television news program, or website.",
-              "office - a building or room in which people work at desks doing business or professional activities.",
-              "read - to look at and understand the meaning of letters, words, symbols, etc.",
-              "record - to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later.",
-              "show - a television or radio program",
-              "work - to do things as part of your job.",
-              "write - to create a book, poem, story, etc. by writing words on paper or on a computer."
+              {
+                word: "both",
+                definition: "the person whose job is to tell other workers what to do."
+              },
+              {
+                word: "bother",
+                definition: "to annoy someone or to cause someone to feel annoyed."
+              },
+              {
+                word: "busy",
+                definition: "actively doing something."
+              },
+              {
+                word: "excited",
+                definition: "very enthusiastic and eager about something."
+              },
+              {
+                word: "nervous",
+                definition: "having or showing feelings of being worried and afraid about what might happen."
+              },
+              {
+                word: "news",
+                definition: "information that is reported in a newspaper, magazine, television news program, or website."
+              },
+              {
+                word: "office",
+                definition: "a building or room in which people work at desks doing business or professional activities."
+              },
+              {
+                word: "read",
+                definition: "to look at and understand the meaning of letters, words, symbols, etc."
+              },
+              {
+                word: "record",
+                definition: "to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later."
+              },
+              {
+                word: "show",
+                definition: "a television or radio program"
+              },
+              {
+                word: "work",
+                definition: "to do things as part of your job."
+              },
+              {
+                word: "write",
+                definition: "to create a book, poem, story, etc. by writing words on paper or on a computer."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "both - the person whose job is to tell other workers what to do.",
-              "bother - to annoy someone or to cause someone to feel annoyed.",
-              "busy - actively doing something.",
-              "excited - very enthusiastic and eager about something.",
-              "nervous - having or showing feelings of being worried and afraid about what might happen.",
-              "news - information that is reported in a newspaper, magazine, television news program, or website.",
-              "office - a building or room in which people work at desks doing business or professional activities.",
-              "read - to look at and understand the meaning of letters, words, symbols, etc.",
-              "record - to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later.",
-              "show - a television or radio program",
-              "work - to do things as part of your job.",
-              "write - to create a book, poem, story, etc. by writing words on paper or on a computer."
+              {
+                word: "both",
+                definition: "the person whose job is to tell other workers what to do."
+              },
+              {
+                word: "bother",
+                definition: "to annoy someone or to cause someone to feel annoyed."
+              },
+              {
+                word: "busy",
+                definition: "actively doing something."
+              },
+              {
+                word: "excited",
+                definition: "very enthusiastic and eager about something."
+              },
+              {
+                word: "nervous",
+                definition: "having or showing feelings of being worried and afraid about what might happen."
+              },
+              {
+                word: "news",
+                definition: "information that is reported in a newspaper, magazine, television news program, or website."
+              },
+              {
+                word: "office",
+                definition: "a building or room in which people work at desks doing business or professional activities."
+              },
+              {
+                word: "read",
+                definition: "to look at and understand the meaning of letters, words, symbols, etc."
+              },
+              {
+                word: "record",
+                definition: "to store something, such as sounds, music, images, etc. on tape or on a disk so that it can be heard or seen later."
+              },
+              {
+                word: "show",
+                definition: "a television or radio program"
+              },
+              {
+                word: "work",
+                definition: "to do things as part of your job."
+              },
+              {
+                word: "write",
+                definition: "to create a book, poem, story, etc. by writing words on paper or on a computer."
+              }
             ]
           }
         ]
@@ -2920,35 +3346,107 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "afternoon - the middle part of the day; the part of the day between noon and evening.",
-              "apologize - to express regret for doing or saying something wrong.",
-              "before - at an earlier time.",
-              "evening - the last part of the day and early part of the night.",
-              "job - the work that a person does regularly in order to earn money.",
-              "later - happening near the end of a process, activity, series, life, etc.",
-              "light - a source of light (such as an electric lamp)",
-              "morning - the early part of the day; the time of day from sunrise until noon.",
-              "now - at the present time.",
-              "studio - the building or room where an artist works.",
-              "surprise - an unexpected event or piece of information.",
-              "yesterday - the day before today."
+              {
+                word: "afternoon",
+                definition: "the middle part of the day; the part of the day between noon and evening."
+              },
+              {
+                word: "apologize",
+                definition: "to express regret for doing or saying something wrong."
+              },
+              {
+                word: "before",
+                definition: "at an earlier time."
+              },
+              {
+                word: "evening",
+                definition: "the last part of the day and early part of the night."
+              },
+              {
+                word: "job",
+                definition: "the work that a person does regularly in order to earn money."
+              },
+              {
+                word: "later",
+                definition: "happening near the end of a process, activity, series, life, etc."
+              },
+              {
+                word: "light",
+                definition: "a source of light (such as an electric lamp)"
+              },
+              {
+                word: "morning",
+                definition: "the early part of the day; the time of day from sunrise until noon."
+              },
+              {
+                word: "now",
+                definition: "at the present time."
+              },
+              {
+                word: "studio",
+                definition: "the building or room where an artist works."
+              },
+              {
+                word: "surprise",
+                definition: "an unexpected event or piece of information."
+              },
+              {
+                word: "yesterday",
+                definition: "the day before today."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "afternoon - the middle part of the day; the part of the day between noon and evening.",
-              "apologize - to express regret for doing or saying something wrong.",
-              "before - at an earlier time.",
-              "evening - the last part of the day and early part of the night.",
-              "job - the work that a person does regularly in order to earn money.",
-              "later - happening near the end of a process, activity, series, life, etc.",
-              "light - a source of light (such as an electric lamp)",
-              "morning - the early part of the day; the time of day from sunrise until noon.",
-              "now - at the present time.",
-              "studio - the building or room where an artist works.",
-              "surprise - an unexpected event or piece of information.",
-              "yesterday - the day before today."
+              {
+                word: "afternoon",
+                definition: "the middle part of the day; the part of the day between noon and evening."
+              },
+              {
+                word: "apologize",
+                definition: "to express regret for doing or saying something wrong."
+              },
+              {
+                word: "before",
+                definition: "at an earlier time."
+              },
+              {
+                word: "evening",
+                definition: "the last part of the day and early part of the night."
+              },
+              {
+                word: "job",
+                definition: "the work that a person does regularly in order to earn money."
+              },
+              {
+                word: "later",
+                definition: "happening near the end of a process, activity, series, life, etc."
+              },
+              {
+                word: "light",
+                definition: "a source of light (such as an electric lamp)"
+              },
+              {
+                word: "morning",
+                definition: "the early part of the day; the time of day from sunrise until noon."
+              },
+              {
+                word: "now",
+                definition: "at the present time."
+              },
+              {
+                word: "studio",
+                definition: "the building or room where an artist works."
+              },
+              {
+                word: "surprise",
+                definition: "an unexpected event or piece of information."
+              },
+              {
+                word: "yesterday",
+                definition: "the day before today."
+              }
             ]
           }
         ]
@@ -2959,39 +3457,123 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "celsius - relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees.",
-              "change - to become different.",
-              "check - to get information by looking at something, asking about something, etc.",
-              "cold - having a very low temperature.",
-              "degree - a unit for measuring temperature.",
-              "fahrenheit - relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero.",
-              "forecast - a statement about what you think is going to happen in the future.",
-              "phone - a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else.",
-              "snowy - having falling snow or covered with snow.",
-              "sunny - having plenty of bright sunlight.",
-              "temperature - a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)",
-              "warm - somewhat hot; not cool or cold.",
-              "weather - the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place.",
-              "windy - having a lot of wind"
+              {
+                word: "celsius",
+                definition: "relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees."
+              },
+              {
+                word: "change",
+                definition: "to become different."
+              },
+              {
+                word: "check",
+                definition: "to get information by looking at something, asking about something, etc."
+              },
+              {
+                word: "cold",
+                definition: "having a very low temperature."
+              },
+              {
+                word: "degree",
+                definition: "a unit for measuring temperature."
+              },
+              {
+                word: "fahrenheit",
+                definition: "relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero."
+              },
+              {
+                word: "forecast",
+                definition: "a statement about what you think is going to happen in the future."
+              },
+              {
+                word: "phone",
+                definition: "a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else."
+              },
+              {
+                word: "snowy",
+                definition: "having falling snow or covered with snow."
+              },
+              {
+                word: "sunny",
+                definition: "having plenty of bright sunlight."
+              },
+              {
+                word: "temperature",
+                definition: "a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)"
+              },
+              {
+                word: "warm",
+                definition: "somewhat hot; not cool or cold."
+              },
+              {
+                word: "weather",
+                definition: "the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place."
+              },
+              {
+                word: "windy",
+                definition: "having a lot of wind"
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "celsius - relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees.",
-              "change - to become different.",
-              "check - to get information by looking at something, asking about something, etc.",
-              "cold - having a very low temperature.",
-              "degree - a unit for measuring temperature.",
-              "fahrenheit - relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero.",
-              "forecast - a statement about what you think is going to happen in the future.",
-              "phone - a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else.",
-              "snowy - having falling snow or covered with snow.",
-              "sunny - having plenty of bright sunlight.",
-              "temperature - a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)",
-              "warm - somewhat hot; not cool or cold.",
-              "weather - the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place.",
-              "windy - having a lot of wind"
+              {
+                word: "celsius",
+                definition: "relating to or having a scale for measuring temperature on which the boiling point of water is at 100 degrees and the freezing point of water is at 0 degrees."
+              },
+              {
+                word: "change",
+                definition: "to become different."
+              },
+              {
+                word: "check",
+                definition: "to get information by looking at something, asking about something, etc."
+              },
+              {
+                word: "cold",
+                definition: "having a very low temperature."
+              },
+              {
+                word: "degree",
+                definition: "a unit for measuring temperature."
+              },
+              {
+                word: "fahrenheit",
+                definition: "relating to or having a scale for measuring temperature on which the boiling point of water is at 212 degrees above zero and the freezing point is at 32 degrees above zero."
+              },
+              {
+                word: "forecast",
+                definition: "a statement about what you think is going to happen in the future."
+              },
+              {
+                word: "phone",
+                definition: "a device that is connected to a telephone system and that you use to listen or speak to someone who is somewhere else."
+              },
+              {
+                word: "snowy",
+                definition: "having falling snow or covered with snow."
+              },
+              {
+                word: "sunny",
+                definition: "having plenty of bright sunlight."
+              },
+              {
+                word: "temperature",
+                definition: "a measurement that indicates how hot or cold something is; a measurement in degrees showing the heat of something (such as air or water)"
+              },
+              {
+                word: "warm",
+                definition: "somewhat hot; not cool or cold."
+              },
+              {
+                word: "weather",
+                definition: "the temperature and other outside conditions (such as rain, cloudiness, etc.) at a particular time and place."
+              },
+              {
+                word: "windy",
+                definition: "having a lot of wind"
+              }
             ]
           }
         ]
@@ -3002,37 +3584,115 @@ export default {
           {
             lang: "en",
             speakingPractice: [
-              "ahead - to or toward the place where someone is going.",
-              "bus - a large vehicle that is used for carrying passengers especially along a particular route at particular times.",
-              "coffee shop - a small restaurant that serves coffee and other drinks as well as simple foods.",
-              "department store - a large store that has separated areas in which different kinds of products are sold.",
-              "exit - to go out of a place.",
-              "left - located on the same side of your body as your heart.",
-              "metro - an underground railway system in some cities (also called subway).",
-              "right - located on the side of your body that is away from your heart.",
-              "station - place where buses, trains, etc., regularly stop so that passengers can get on and off.",
-              "straight - in a straight or direct way.",
-              "then - used to indicate what happened or happens next.",
-              "turn - to cause your body or a part of your body to face a different direction.",
-              "walk - to move with your legs at a speed that is slower than running."
+              {
+                word: "ahead",
+                definition: "to or toward the place where someone is going."
+              },
+              {
+                word: "bus",
+                definition: "a large vehicle that is used for carrying passengers especially along a particular route at particular times."
+              },
+              {
+                word: "coffee",
+                definition: "op - a small restaurant that serves coffee and other drinks as well as simple foods."
+              },
+              {
+                word: "department store",
+                definition: "a large store that has separated areas in which different kinds of products are sold."
+              },
+              {
+                word: "exit",
+                definition: "to go out of a place."
+              },
+              {
+                word: "left",
+                definition: "located on the same side of your body as your heart."
+              },
+              {
+                word: "metro",
+                definition: "an underground railway system in some cities (also called subway)."
+              },
+              {
+                word: "right",
+                definition: "located on the side of your body that is away from your heart."
+              },
+              {
+                word: "station",
+                definition: "place where buses, trains, etc., regularly stop so that passengers can get on and off."
+              },
+              {
+                word: "straight",
+                definition: "in a straight or direct way."
+              },
+              {
+                word: "then",
+                definition: "used to indicate what happened or happens next."
+              },
+              {
+                word: "turn",
+                definition: "to cause your body or a part of your body to face a different direction."
+              },
+              {
+                word: "walk",
+                definition: "to move with your legs at a speed that is slower than running."
+              }
             ]
           },
           {
             lang: "uz",
             speakingPractice: [
-              "ahead - to or toward the place where someone is going.",
-              "bus - a large vehicle that is used for carrying passengers especially along a particular route at particular times.",
-              "coffee shop - a small restaurant that serves coffee and other drinks as well as simple foods.",
-              "department store - a large store that has separated areas in which different kinds of products are sold.",
-              "exit - to go out of a place.",
-              "left - located on the same side of your body as your heart.",
-              "metro - an underground railway system in some cities (also called subway).",
-              "right - located on the side of your body that is away from your heart.",
-              "station - place where buses, trains, etc., regularly stop so that passengers can get on and off.",
-              "straight - in a straight or direct way.",
-              "then - used to indicate what happened or happens next.",
-              "turn - to cause your body or a part of your body to face a different direction.",
-              "walk - to move with your legs at a speed that is slower than running."
+              {
+                word: "ahead",
+                definition: "to or toward the place where someone is going."
+              },
+              {
+                word: "bus",
+                definition: "a large vehicle that is used for carrying passengers especially along a particular route at particular times."
+              },
+              {
+                word: "coffee",
+                definition: "op - a small restaurant that serves coffee and other drinks as well as simple foods."
+              },
+              {
+                word: "department store",
+                definition: "a large store that has separated areas in which different kinds of products are sold."
+              },
+              {
+                word: "exit",
+                definition: "to go out of a place."
+              },
+              {
+                word: "left",
+                definition: "located on the same side of your body as your heart."
+              },
+              {
+                word: "metro",
+                definition: "an underground railway system in some cities (also called subway)."
+              },
+              {
+                word: "right",
+                definition: "located on the side of your body that is away from your heart."
+              },
+              {
+                word: "station",
+                definition: "place where buses, trains, etc., regularly stop so that passengers can get on and off."
+              },
+              {
+                word: "straight",
+                definition: "in a straight or direct way."
+              },
+              {
+                word: "then",
+                definition: "used to indicate what happened or happens next."
+              },
+              {
+                word: "turn",
+                definition: "to cause your body or a part of your body to face a different direction."
+              },
+              {
+                word: "walk",
+                definition: "to move with your legs at a speed that is slower than running."
+              }
             ]
           }
         ]

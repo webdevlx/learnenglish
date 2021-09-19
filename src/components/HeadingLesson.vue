@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="12">
+    <v-col cols="12" class="my-3" style="box-shadow: 4px 4px 10px rgba(0,0,0,0.2)">
       <h1>Lesson {{ number }}: {{ title }}</h1>
     </v-col>
   </v-row>
